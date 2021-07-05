@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6333554-e4c3-4c28-bd47-46f89520db8e" name="Default Changelist" comment="" />
+    <list default="true" id="f6333554-e4c3-4c28-bd47-46f89520db8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.0.0" />
     <property name="js.ns.project" value="true" />
+    <property name="js.ns.project.flavor" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -40,13 +43,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,6 +76,8 @@
       <workItem from="1625511032019" duration="223000" />
       <workItem from="1625511641452" duration="408000" />
       <workItem from="1625512125654" duration="304000" />
+      <workItem from="1625515267507" duration="725000" />
+      <workItem from="1625521992482" duration="215000" />
     </task>
     <servers />
   </component>
