@@ -1,0 +1,1123 @@
+<!-- views/homepage.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name ='HandheldFriendly' content ='true'>
+    <!--NOTE: Most Web WorldWind bak use jquery, Bootstrap and requirejs but those technologies are NOT-->
+    <!--required by Web WorldWind. See SimplestExample.html for an example of using Web WorldWind without them.-->
+    <meta charset="utf-8"/>
+    <title>A̶W̶B̶ COVID Toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <!--    <link rel="icon" href="/images/download%20(2).jpeg">-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,900' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" type="image/x-icon" />
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">-->
+    <link href="//www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/menu.css"/>
+    <link rel="stylesheet" href="css/stylesheet1.css"/>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!--    <link data-require="bootstrap@3.3.7" data-semver="3.3.7" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/Chart.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!--    <link data-require="bootstrap@3.3.7" data-semver="3.3.7" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />-->
+    <!--    <script data-require="angular.js@1.6.0" data-semver="1.6.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>-->
+    <!--    <script data-require="ui-bootstrap@*" data-semver="2.2.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-tpls-2.2.0.js"></script>-->
+    <!--    <link rel="stylesheet" href="css/rzslider.css" />-->
+    <script src="3rdPartyLibs/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <!--    <script src="https://www.google.com/recaptcha/api.js?render=6Ld7fq8UAAAAAOv8ZEiVj6P972pR_Vf3ko5R0JB_"></script>-->
+    <script src="//cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="3rdPartyLibs/build/WorldWind-built.js"></script>
+    <!--    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>-->
+    <!--    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>-->
+
+    <!-- plus a jQuery UI theme, here I use "flick" -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/flick/jquery-ui.css">
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="3rdPartyLibs/popper-1.14.0.min.js"></script>
+    <script src="3rdPartyLibs/bootstrap-3.3.4.min.js"></script>
+    <script src="3rdPartyLibs/Chart-2.9.3.min.js"></script>
+    <script src="3rdPartyLibs/dateformat.min.js"></script>
+    <script type="text/javascript" src="scripts/ui_controls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+    <!--    <script src="scripts/customPL_Worker.js"></script>-->
+    <!--    <script data-main="../scripts/Home"></script>-->
+    <script data-main="../scripts/Home" src="3rdPartyLibs/requirejs-2.3.6.min.js"></script>
+
+    <style>
+        body {
+            padding-bottom: 80px
+        }
+
+
+        /**/
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 30px;
+            height: 17px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 13px;
+            width: 13px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(13px);
+            -ms-transform: translateX(13px);
+            transform: translateX(13px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 17px;
+        }
+
+        /**/
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+        .note {
+            color: #959595;
+        }
+
+        .button1 {
+            width: 100px;
+            height: 30px;
+            border-radius: 100px;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            background-color: white;
+            color: #337ab7;
+            border: 1px solid #337ab7;
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .button1:hover {
+            background-color: #337ab7;
+            color: white;
+        }
+
+        #refresh:hover {
+            background-color: #57b6b7;
+            color: white;
+        }
+
+        #navControls {
+            background-color: #0db9f0;
+            color: white;
+        }
+
+        #navControls:hover {
+            background-color: #0D8BBD;
+            color: white;
+        }
+
+        #clear, #stopTL:hover {
+            background-color: #b71926;
+            color: white;
+        }
+
+        #stopTL {
+            background-color: grey;
+        }
+
+        .log-form {
+            font-size: 18px;
+        }
+
+        .box1 {
+            /*margin-left: -30px;*/
+            padding: 30px;
+            position: absolute;
+            width: 380px;
+            height: 930px;
+            box-shadow: 9px 4px 10px 0 rgba(0, 0, 0, 0.21), -4px 6px 18px 0 rgba(0, 0, 0, 0.17);
+        }
+
+        #accordion::-webkit-scrollbar-thumb {
+            border-radius: 2px;
+            background-color: rgba(0, 0, 0, .5);
+            /*-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);*/
+        }
+
+        #accordion::-webkit-scrollbar {
+            -webkit-appearance: none;
+            width: 7px;
+        }
+
+        #accordion::-webkit-scrollbar-corner {
+            display: block;
+        }
+
+        .highlight {
+            border: 1px solid blue;
+        }
+
+        .alert alert-danger {
+        }
+
+        .popup-group {
+            /*position: -webkit-sticky;*/
+            /*position: sticky;*/
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120%;
+            background-color: rgba(290, 220, 220, 0.51);
+            display: none;
+            position: fixed;
+            z-index: 10;
+        }
+
+        .popupBoxWrapper {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: left;
+            max-height: 70%;
+            overflow-y: auto;
+        }
+
+        .popupBoxContent {
+            background-color: #FFF;
+            padding: 25px;
+            width: 100%;
+            overflow-y: auto;
+            margin-top: 55%;
+            position: sticky;
+            position: -webkit-sticky;
+        }
+
+        .popup-Header {
+            padding: 10px 16px;
+            background-color: #84c77d;
+            color: white;
+        }
+
+        .close {
+            color: red;
+            float: right;
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        .popup-Body {
+            padding: 2px 16px;
+        }
+
+        #capsWarning {
+            color: red;
+            text-align: center;
+        }
+
+        #layers-toggle {
+            position: absolute;
+            top: 417px;
+            left: 330px;
+            width: 60px;
+            height: 34px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #b8b8b8;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #888888;
+        }
+
+        .spinner{
+            width: 80px;
+            height: 80px;
+
+            border: 4px solid #f3f3f3;
+            border-top:6px solid #f25a41;
+            border-radius: 100%;
+
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right: 0;
+            margin: auto;
+
+            animation: spin 1s infinite linear;
+        }
+
+        @keyframes spin {
+            from{
+                transform: rotate(0deg);
+            }to{
+                 transform: rotate(360deg);
+             }
+        }
+
+        #overlay{
+            height:100%;
+            width:100%;
+            background: rgb(0, 0, 0);
+            position:fixed;
+            left:0;
+            top:0;
+        }
+
+    </style>
+</head>
+<body onload="hideDialog()" ononline="onFunction()" onoffline="offFunction()">
+
+
+<ul class="tab"
+    style="z-index: 999; position: fixed; left: 0; height: 38px; width: 100%; background: rgba(46,74,110,1); overflow: visible">
+<!--    <li><a class="tablinksLeft logo" title="Info"><strong>AWB Disease Trends</strong></a></li>-->
+    <li><a class="tablinksLeft logo" title="Info"autofocus><strong>A̶W̶B̶ COVID Toolkit</strong></a></li>
+    <li>
+        <a id="controls-tab" class="tablinksLeft" onclick="openTabLeft(event, 'controls')" style="pointer-events: none;" title="Controls">
+            <span id="controls-span" class="glyphicon glyphicon-tasks disabled-icon"></span></a>
+    </li>
+    <li>
+        <a id="diseasetrends-tab" class="tablinksLeft" onclick="openTabLeft(event, 'options_div')" style="pointer-events: none;"  title="Disease Trends">
+            <span id="diseasetrends-span" class="glyphicon glyphicon-globe disabled-icon"></span></a>
+    </li>
+    <li>
+        <a id="drawingtools-tab" class="tablinksLeft" onclick="openTabLeft(event, 'drawing')" style="pointer-events: none;" title="Drawing Tools">
+            <span id="drawingtools-span" class="glyphicon glyphicon-pencil disabled-icon"></span></a>
+    </li>
+    <li hidden>
+        <a id="reset-tab" class="tablinksLeft" id="globeOrigin" style="pointer-events: none;" title="Reset">
+            <span id="reset-span" class="glyphicon glyphicon-repeat disabled-icon"></span></a>
+    </li>
+
+    <li>
+        <a class="tablinksRight" onclick="openTabRight(event, 'information');"
+           style="position: fixed; right: 1%; width: 3%;" title="Information">
+            <i class="fa fa-info" aria-hidden="true"></i></a>
+    </li>
+    <li>
+        <a class="tablinksRight graphstopnav disabled-icon" id="charts" onclick="openTabRight(event, 'graphs')" style="position: fixed; right: 4%;" title="Graphs" >
+
+            <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+    </li>
+</ul>
+<div class="container">
+    <div class="col-sm-8" id="globe">
+        <canvas id="canvasOne" width="1920" height="1080"
+                style="position: fixed; left: 0; top: 38px; width: 100%; height: 100%; background-color: black;">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+
+        <div id="datesliderdiv" style="position: fixed;width: 50%; left: 25%; right: 25%; bottom: 5%; padding: 20px; border-radius: 15px; background: rgba(46,74,110,0.6);border: 1px solid #ccc;" >
+            <h4 id="labelSlider" style="color: white; display: inline-block;">Date Slider:</h4>
+            <h4 id="labelRangeSlider" style="color: white; display: none;">Date Range Selector (select slider min/max
+                dates):</h4>
+            <input type="text" readonly id="amount"
+                   style="display: inline-block; border: 0; color: white; background-color: transparent">
+            <input type="text" readonly id="amount2"
+                   style="width: 250px; display: none; border: 0; color: white; background-color: transparent">
+            <span id="filter" class="glyphicon glyphicon-list btn" style="float: right; color: white"></span>
+            <span id="edit" class="glyphicon glyphicon-pencil btn" style="float: right; color: white"></span>
+            <div id="slider-range"></div>
+            <div id="doubleSlider-range" style="display: none"></div>
+        </div>
+
+<!--        <div class="popup-group" id="popupBox">-->
+<!--            <div class="popupBoxWrapper">-->
+<!--                <div class="popupBoxContent">-->
+<!--                    &lt;!&ndash; Popup Box Header&ndash;&gt;-->
+<!--                    <div class="popup-Header">-->
+<!--                        <span class="close" id="closeIt">&times;</span>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; Popup Box Body&ndash;&gt;-->
+<!--                    <div class="popup-Body chart-container" id="popupBody">-->
+<!--                        &lt;!&ndash;                    <div class="popup-Body chart-container" id="popupBody">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                        <canvas id = "stackedChart" style="background:#fff; height:200px;"></canvas>&ndash;&gt;-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Popup Box Footer&ndash;&gt;-->
+<!--                    <div class="popup-Footer">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div id="dialogDateRange" title="Date Range Confirmation">
+            <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span> Are you sure you
+                would like to select these dates?</p>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>From:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <input id="drFrom" class="date form-control filterFrom fromdatepicker" style="color:#000000; background: white; position: relative;
+                     display: block">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>To:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <input id="drTo" class="date form-control filterTo todatepicker" style="color:#000000; background: white;
+                    display: block">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="dialog" title="Filter Options">
+            <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span> Utilizing the
+                date slider requires a filter to be set. Please select your desired settings. NOTE: A full load could
+                take a long time, possibly even crashing your browser.</p>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>From:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <input id="foFrom" class="date form-control filterFrom fromdatepicker" style="color:#000000; background: white; position: relative;
+                     display: block">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>To:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <input id="foTo" class="date form-control filterTo todatepicker" style="color:#000000; background: white; position: relative;
+                    display: block">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>Continents:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <select class="form-control" name="continents" id="filterContinents">
+                            <option selected="selected" value="All Continents">All Continents</option>
+                            <option value="North America">North America</option>
+                            <option value="Europe">Europe</option>
+                            <option value="South America">South America</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Oceania">Oceania</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2 push-md-10">
+                        <h5>Countries:</h5></div>
+                    <div class="col-md-10 pull-md-2">
+                        <select class="form-control" name="countries" id="filterCountries">
+                            <option value="all_countries">All Countries</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <input type="button" id="fullLoad" value="Full Load" style="display: inline-block">
+            <p style="display: inline-block; margin-left: 10px"><strong>(all days will be loaded)</strong></p>
+        </div>
+    </div>
+
+    <div id="options_div" class="col-sm-2 tabcontentLeft leftTabPadding"
+         style="font-size: 12px !important; padding-bottom: 5% !important;">
+        <div class="smallRule">
+            <h4 style="text-align: center">Disease Trends:</h4>
+        </div>
+        <h5>Category</h5>
+        <div class="dropdown" id="categoryList" style="height: 10px">
+        </div>
+        <br>
+        <div class="dropdown" id="categoryListVaccinations" style="height: 10px" hidden>
+        </div>
+        <hr>
+        <h5>Continents</h5>
+        <div class="dropdown" id="continentList" style="height: 10px">
+        </div>
+        <hr>
+        <h5>Destination</h5>
+        <div class="input-group" id="searchBox">
+            <input id="searchText" type="text" class="form-control" placeholder="Search a location">
+            <span class="input-group-btn">
+                        <button id="searchButton" class="btn btn-primary" type="button"><span
+                                    class="glyphicon glyphicon-search" name="search button"></span></button></span>
+        </div>
+        <hr>
+        <h5>Layers <br><br><span id="refresh" class="glyphicon glyphicon-refresh btn"></span><span id="clear"
+                                                                                           class="glyphicon glyphicon-trash btn"></span>
+            <span id="navControls" class="glyphicon glyphicon-adjust btn"></span></h5>
+        <br>
+        <div class="list-group" id="layerList">
+        </div>
+    </div>
+
+
+    <div id="controls" class="col-sm-2 tabcontentLeft leftTabPadding"
+         style="font-size: 12px !important; padding-bottom: 5% !important;">
+        <h5 style="text-align: center">Projection</h5>
+        <div class="dropdown" id="projectionDropdown" style="height: 10px;">
+        </div>
+<!--        <hr>-->
+<!--        <div style="color: #FFFFFF;">-->
+<!--            <h5><strong>Surface Opacity</strong></h5>-->
+<!--            <div id="opacitySlider"-->
+<!--                 class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"-->
+<!--                 style="width: 100%;">-->
+<!--            </div>-->
+<!--            <h5><span id="opacitySliderValue">% opacity</span></h5>-->
+<!--        </div>-->
+        <hr>
+        <p id="selectedCountry"></p>
+        <div class="panel-group" id="accordion" style="width: 100%; height: 70%; overflow: scroll"></div>
+<!--        <h4>Disease Projection</h4>-->
+<!--        <div class="dropdown" id="diseaseDropdown" style="height: 10px"></div>-->
+<!--        <br><br>-->
+<!--        <div class="panel-group accordion" id="diseases" ></div>-->
+<!--        <br>-->
+
+<!--        <h5 class="projectionTitle">Food Security</h5>-->
+<!--        <div class="dropdown" id="agrosphereDropdown" style="height: 10px"></div>-->
+<!--        <br><br>-->
+<!--        <div class="panel-group accordion" id="foodSecurity" ></div>-->
+<!--        <br>-->
+        <div style="position: sticky; position: -webkit-sticky; bottom:0; text-align: center">
+            <h4 style="text-align: center;"><em><strong>In Partnership With:</strong></em></h4>
+            <hr>
+            <p class="projectionTitle" style="text-align: justify">
+                UNITAR/UNOSAT
+            </p>
+            <p class="projectionTitle" style="text-align: justify">
+                Data Source - OGC
+            </p>
+            <p class="projectionTitle" style="text-align: justify">
+                Sentinel Data - ESA/Sinergise
+            </p>
+            <p class="projectionTitle" style="text-align: justify">
+                WEkEO: ThalesAlenia
+            </p>
+        </div>
+
+
+
+        <!---<a href="https://worldwind.arc.nasa.gov/agrosphere/" class="btn btn-info btn-block" type="button">Agrosphere<span class="caret"></span></a>--->
+    </div>
+
+    <div id="drawing" class="col-sm-2 tabcontentLeft leftTabPadding"
+         style="font-size: 12px !important; padding-bottom: 5% !important;">
+        <h5 id="timelapseText" style="text-align: center;"> Timelapse of Coronavirus:</h5>
+        <!--        <div style="height: 10px">-->
+        <button id="toggleTL" class="btn btn-primary" name="start timelapse" type="button">START</button>
+        <button id="playTL" class="btn btn-primary" style="display: none;" type="button">PLAY</button>
+        <button id="pauseTL" class="btn btn-primary" style="display: none;" type="button">PAUSE</button>
+        <button id="stopTL" class="btn btn-primary" style="display: none;" type="button">STOP</button>
+        <!--        </div>-->
+        <div style="padding-top: 9px;" class="form-group">
+            <div class="row">
+                <div class="col-md-2 push-md-10">
+                    <h5>Current:</h5>
+                </div>
+                <div class="col-md-10 pull-md-2">
+                    <input class="date form-control" id="currentdatepicker" style="color:#000000; position: relative;
+                             display: block">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-2 push-md-10">
+                    <h5>From:</h5></div>
+                <div class="col-md-10 pull-md-2">
+                    <input class="date form-control fromdatepicker" id="fromdatepicker" style="color:#000000; position: relative;
+                     display: block">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-2 push-md-10">
+                    <h5>To:</h5></div>
+                <div class="col-md-10 pull-md-2">
+                    <input class="date form-control todatepicker" id="todatepicker" style="color:#000000; position: relative;
+                    display: block">
+                </div>
+            </div>
+        </div>
+
+        <div class="list-group" id="annotationList" style="width: 100%; text-align: center;">
+            <div class="input-group" id="annotationBox" style="width: 100%;text-align: center;align-content: center;">
+                <div style="color: #FFFFFF;">
+                    <h5><strong>Speed of Timelapse</strong></h5>
+                    <div id="speedSlider"
+                         class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                         style="width: 100%;">
+                    </div>
+                    <h5><span id="speedValue">1 second</span></h5>
+                </div>
+                <div class="smallRule">
+                    <h5 id="titleCategory"><strong>Infections Filter (Lowest - Highest)</strong></h5>
+                    <div id="hInfectionSlider"
+                         class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                         style="width: 100%;">
+                        <div class="ui-slider-range ui-widget-header ui-corner-all"
+                             style="left: 61.4286%; width: 38.5714%;"></div>
+                        <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                              style="left: 75.7143%;"></span>
+                        <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                              style="left: 100%;"></span>
+                        <div class="ui-slider-range ui-widget-header ui-corner-all"
+                             style="width: 24.2857%; left: 75.7143%;"></div>
+                    </div>
+                    <h5><span id="hInfectionsValue">0 to 743 Locations</span></h5>
+                </div>
+                <div style="color: #FFFFFF;">
+                    <h5><strong>Surface Opacity</strong></h5>
+                    <div id="opacitySlider"
+                         class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                         style="width: 100%;">
+                    </div>
+                    <h5><span id="opacitySliderValue">100% opacity</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="information" class="col-sm-2 tabcontentRight"
+         style="ps-container: ps-theme-default ps-active; font-size: 12px;width: 25% !important; display: none">
+        <hr>
+        <h3 style="text-align: center; font-size: 20px !important;"><em><strong>CV-19 Pandemic: Returning to A Better
+                    Tomorrow</strong></em></h3>
+        <hr>
+        <h4 style="text-align: center">The Plan</h4>
+        <p style="text-align: justify">
+            During this time of great international need and severe personal difficulty, our goal for
+            returning to a better tomorrow is to provide Covid-19 pandemic solutions. These
+            solutions will be highly adaptable web apps, designed in response to the pandemic, and
+            referred to here as Covid Toolkits.
+        </p>
+        <p style="text-align: justify">
+            By involving a cross-section of world-class technology experts and solutions providers,
+            we will maximize this international collaborative effort. These Covid Toolkits will
+            powerfully reveal our Covid state-of-the-world. This will allow the world to better
+            understand our actual circumstance.
+        </p>
+        <p style="text-align: justify">
+            This will include trend analyses, via dynamic and interactive web app visualizations,
+            along with future projected scenarios shown at planetary scale. Our purpose, to
+            dramatically increase the efficacy of any strategic response. This will inspire the world
+            to recognize how much we are in this together.
+        </p>
+        <p style="text-align: justify">
+            To that end, UNITAR, FAO, the World Bank, Thales, Sinergise, Strategic News
+            Service,  ̶A̶W̶o̶r̶l̶d̶B̶r̶i̶d̶g̶e̶ and others will design and build a suite of Covid Toolkits.
+        </p>
+        <hr>
+        <h4 style="text-align: center"><strong>Covid Toolkit Priorities</strong></h4>
+        <p style="text-align: center; font-size: 10px;">
+            Covid Toolkit Priorities are described here, subsequently followed by their goals.
+        </p>
+
+        <p style="text-align: justify;">
+            <strong>Priority 1, Severity &amp; Capacity:</strong> Key issues to be addressed will be trend analyses of
+            infection and resultant impact to medical supply chain and vulnerability thereof.
+            Mapping geographic region and medical facilities, with tracking of human infection rate
+            and regional ability to respond. Our over-arching goal is to most effectively respond to
+            the medical priorities of hospitalization resources, testing and case monitoring.
+        </p>
+        <p style="text-align: justify;">
+            <strong>Priority 2, Food Security &amp; Economy:</strong> Food security (agriculture) will become an
+            urgent continental-scale concern, especially in third-world areas. Economic instability
+            (poverty) and attendant geopolitical consequences will be exacerbated. Earth is already
+            witnessing internal and international migrations and increasing geopolitical violence.
+        </p>
+        <h5><strong>I. Priority 1 Goals: <i>Severity &amp; Capacity</i></strong></h5>
+        <p style="padding-left: 5%"><strong>a. <i>Covid-19 Severity:</i></strong></p>
+        <ol type="1">
+            <li style="text-align: justify">
+                <strong>Areas of Concern:</strong> Areas of increasing infection or expected high potential,
+                based on known comorbidity numbers are identified using high-resolution
+                satellite data with regions coded green, yellow, and red. Real-time and
+                prospective crowding issues of concern can be identified. This will allow people
+                see what area to avoid, and plan accordingly.
+            </li>
+            <li style="text-align: justify">
+                <strong>Infection Rate:</strong> Nations, States, Regions and Cities, will be able to represent
+                degree of infections by area. This will provide a color-coded guide that is
+                instructive for individuals navigating their movement in order to avoid areas of
+                high or increasing infection. By way of example this would designate areas as red
+                for where there is a high case count (density) or infections trending upward.
+            </li>
+            <li style="text-align: justify">
+                <strong>Behavioral Assessment:</strong> Individuals who are self-quarantining as confirmed
+                carriers, could identify events and areas recently visited. We imagine a separate
+                UN Covid web app that allows for identification of recent sensitive areas where
+                contagion has been confirmed. Recommendations on increased caution or self-
+                quarantine could identify specific areas of concern, limiting the need for a larger
+                area of lockdown.
+            </li>
+            <li style="text-align: justify">
+                <strong>Mortality:</strong> Increase accurate assessment of death rates by corroborative tracking
+                of current morgue and cemetery activity as compared to historical norms.
+            </li>
+        </ol>
+
+        <p style="padding-left: 5%"><strong>b. <i>Covid-19 Capacity:</i></strong></p>
+
+        <ol type="1">
+            <li style="text-align: justify">
+                <strong>Treatment Sites:</strong> Medical facilities will show maximum capacity and degree of
+                use. This will identify specific resources available (equipment/staff) versus needs.
+                This would greatly improve logistics efficiency and allow for tracking of efficacy.
+                Tracking hospitals by patient age, condition and outcome, would identify how
+                respective medical facilities are performing, indicating which are being over-
+                whelmed and need additional staff or supplies, or may have resources to spare.
+            </li>
+            <li style="text-align: justify">
+                <strong>Medical Equipment:</strong> Tracking equipment deliveries in real-time would allow
+                medical teams to more accurately predict the near-term choices they are making.
+                If they know they have N95&#39;s coming tomorrow (or other PPE), they don&#39;t need to
+                stretch resources by reusing, and thereby decrease the potential for infection.
+            </li>
+            <li style="text-align: justify">
+                <strong>Hotspot Predictor:</strong> Prediction of likely new hotspots based on the profile of the
+                population (number of patients at-risk, combined with mobility data) cross-
+                referenced with hospital capacity and potential impact on surrounding regions.
+            </li>
+            <li style="text-align: justify">
+                <strong>Maximum Data:</strong> Possibly one of the more invaluable contributions of involving
+                education, is to challenge the world’s University community to find and provide
+                linkage to *their* local, regional and national data, Covid-19 related.
+            </li>
+        </ol>
+
+        <p style="text-align: center; font-size: 10px">
+            <i> ̶A̶W̶o̶r̶l̶d̶B̶r̶i̶d̶g̶e̶ is fully equipped, given some support, to accept, standardize and
+                deliver that data to a world-central database.</i>
+        </p>
+
+        <h5><strong>II. Priority 2 Goals: <i>Food Security &amp; Economy</i></strong></h5>
+
+        <p style="padding-left: 5%"><strong>a. <i>Food Security:</i></strong></p>
+
+        <ol type="1">
+            <li style="text-align: justify;">
+                <strong>Famines of Biblical Scale Increasing:</strong> <a
+                        href="https://www.theguardian.com/global-development/2020/apr/21/coronavirus-pandemic-will-cause-famine-of-biblical-proportions">https://www.theguardian.com/global-development/2020/apr/21/coronavirus-pandemic-will-cause-famine-of-biblical-proportions</a>
+            </li>
+            <li style="text-align: justify">
+                Estimate crop productivity for the upcoming season using historical and real-
+                time satellite imagery for major agricultural areas. Identify where crop
+                productivity will be seriously impacted and suggest best crops to plant based on
+                projected weather. Current and projected climate factors need to be incorporated.
+                The purpose is to assist both local farming communities and agri-business.
+                A related example: <a href="https://github.com/WorldWindLabs/AgroSphere">https://github.com/WorldWindLabs/AgroSphere</a>
+            </li>
+            <li style="text-align: justify">
+                <strong>Minimize Hunger:</strong> Tracking the expected movement of food, versus food-deficit
+                areas, would help in determining where the most help will be needed. Focus on
+                calorie-negative and lowest-income regions.
+            </li>
+            <li style="text-align: justify">
+                <strong>Transport Bottlenecks:</strong> Where is major transportation and supply-chain working
+                well or stalled with major delays, particularly at international borders.
+            </li>
+        </ol>
+
+        <p style="padding-left: 5%"><strong>b. <i>Economy:</i></strong></p>
+        <ol type="1">
+            <li style="text-align: justify;">
+                <strong>Privacy-Protected Testing, Contact-Tracing, and Quarantine:</strong> This will combine
+                testing data with location information. Quarantine managed by each country’s
+                chosen policy. Any contact-tracing app data needs to decay after 3 or 4 weeks
+                (anonymized location data tracking of positive patients).
+            </li>
+            <li style="text-align: justify;">
+                <strong>Economic Health Tracker:</strong> Assess electricity usage by country and region, i.e.,
+                the NASA Black Marble, as a metric for economic health, to identify areas
+                hardest hit and in most need of economic assistance. Cross-reference historic
+                energy data with current use, as well as economic status and unemployment
+                claims by region.
+            </li>
+        </ol>
+
+        <hr>
+
+        <h4 style="text-align: center"><strong><i>Additional Priority III</i></strong></h4>
+
+        <p style="text-align: center"><strong>Proposal for University Student Crowd-sourced, Micro Data Set Development
+                for CV-19 Strategic Response</strong></p>
+        <p style="text-align: justify; padding-left: 5%;">
+            <strong>Education &amp; Data Access:</strong> Children’s education and their teachers’ ability to
+            teach is being severely compromised by the isolation required due to the
+            pandemic. Teachers were not trained to teach online. This leads to greatly
+            diminished teaching capacity and resultant lack of learning, and has left both
+            teachers and students frustrated and overwhelmed. Classic classroom teachers do
+            not know how to teach via distance-learning. They tend to load up students with
+            mountains of homework, causing students to detach themselves from learning.
+            We must provide a professional development system that teaches teachers how to
+            teach and learners how to learn, via distance-learning.  ̶A̶W̶o̶r̶l̶d̶B̶r̶i̶d̶g̶e̶ is
+            accomplished at this method of teaching and can build those teaching modules.
+        </p>
+
+        <p style="text-align: justify">
+            I. <strong>Critical Inspiration for Data:</strong> Possibly one of the more invaluable contributions
+            of involving education, is to challenge the world’s University community to find and
+            provide linkage to *their* local, regional and national data, Covid-19 related.
+            ̶A̶W̶o̶r̶l̶d̶B̶r̶i̶d̶g̶e̶ is fully equipped, given some support, to collect, standardize and deliver
+            that data to a world-central database.
+        </p>
+        <hr>
+    </div>
+
+    <div id="graphs" class="col-sm-2 tabcontentRight" style="width: 25% !important; display: none">
+        <div style="position: fixed;">
+            <ul class="tab" style="z-index: 999; position: fixed; width: auto; background: rgba(46,74,110,1); overflow: visible">
+                <li class="COVIDTab" id="conC-li"><a class="tablinksInfo COVIDTab-atag" id="conC"
+                                                     style="font-size: 16px">Confirmed Cases</a>
+                </li>
+                <li class="COVIDTab" id="conD-li"><a class="tablinksInfo COVIDTab-atag" id="conD"
+                                                     style="font-size: 16px">Deaths</a>
+                </li>
+                <li class="COVIDTab" id="conR-li"><a class="tablinksInfo COVIDTab-atag" id="conR"
+                                                     style="font-size: 16px">Recovered</a></li>
+                <li class="COVIDTab"  id="conA-li"><a class="tablinksInfo COVIDTab-atag" id="conA"
+                                                      style="font-size: 16px">Active Cases</a></li>
+
+<!--                <div class="vaccTab" style="display: none;">-->
+                    <li class="vaccTab" id="totV-li" style="display: none;"><a class="tablinksInfo vaccTab-atag" id="totV" style="font-size: 16px">Total Vaccinations</a>
+                    </li>
+                    <li class="vaccTab" id="incV-li" style="display: none;"><a class="tablinksInfo vaccTab-atag" id="incV"
+                                                                               style="font-size: 16px">Incomplete</a>
+                    </li>
+                    <li class="vaccTab" id="comV-li" style="display: none;"><a class="tablinksInfo vaccTab-atag" id="comV"
+                                                                               style="font-size: 16px">Completed</a>
+                    </li>
+                    <li class="vaccTab" id="daiV-li" style="display: none;"><a class="tablinksInfo vaccTab-atag" id="daiV"
+                                                                               style="font-size: 16px">Daily Vaccinations</a></li>
+                    <li class="vaccTab" id="milV-li" style="display: none;"><a class="tablinksInfo vaccTab-atag" id="milV"
+                                                                               style="font-size: 16px">Daily Vaccinations/million</a></li>
+<!--                </div>-->
+            </ul>
+            <div style="position: relative; align-items: center;">
+                <div class="COVIDTab">
+                    <div id="confirmed_cases" class="col-sm-2 tabcontentInfo COVIDTab COVIDTabNumber" style="display: none;">
+                        <h4><strong id="con-strong">Number of Confirmed Cases:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw;"><span id="conConfirmed"></span></p>
+                    </div>
+
+                    <div id="confirmed_deaths" class="col-sm-2 tabcontentInfo COVIDTab COVIDTabNumber" style="display: none;">
+                        <h4><strong id="death-strong">Number of Confirmed Deaths:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw;"><span id="conDeaths"></span></p>
+                    </div>
+
+                    <div id="confirmed_recoveries" class="col-sm-2 tabcontentInfo COVIDTab COVIDTabNumber" style="display: none;">
+                        <h4><strong id="recov-strong">Number of People Recovered:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw;"><span id="conRecoveries"></span></p>
+                    </div>
+
+                    <div id="confirmed_active" class="col-sm-2 tabcontentInfo COVIDTab COVIDTabNumber" style="display: none;">
+                        <h4><strong id="active-strong">Number of Active Cases:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw;"><span id="conActive"></span></p>
+                    </div>
+                </div>
+
+
+
+                <div class="vaccTab">
+                    <div id="confirmed_vacc" class="col-sm-2 tabcontentInfo vaccTab vaccTabNumber" style="display: none">
+                        <h4><strong id="total-strong">Number of Total Vaccinations:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw"><span id="totVaccinations"></span></p>
+                    </div>
+
+                    <div id="confirmed_incvacc" class="col-sm-2 tabcontentInfo vaccTab vaccTabNumber" style="display: none">
+                        <h4><strong id="incom-strong">Number of Incomplete Vaccinations:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw"><span id="incVaccinations"></span></p>
+                    </div>
+
+                    <div id="confirmed_comvacc" class="col-sm-2 tabcontentInfo vaccTab vaccTabNumber" style="display: none">
+                        <h4><strong id="comp-strong">Number of Completed Vaccinations:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw"><span id="comVaccinations"></span></p>
+                    </div>
+
+                    <div id="confirmed_daivacc" class="col-sm-2 tabcontentInfo vaccTab vaccTabNumber" style="display: none">
+                        <h4><strong id="daily-strong">Number of Daily Vaccinations:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw"><span id="daiVaccinations"></span></p>
+                    </div>
+
+                    <div id="confirmed_milvacc" class="col-sm-2 tabcontentInfo vaccTab vaccTabNumber" style="display: none">
+                        <h4><strong id="mil-strong">Number of Daily Vaccinations/million:</strong></h4>
+                        <hr>
+                        <p style="font-size: 3vw;"><span id="milVaccinations"></span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--        <div class="popup-group" id="popupBox">-->
+<!--            <div class="popupBoxWrapper">-->
+                <div class="popupBoxContent" id="popupBox" hidden>
+                    <!-- Popup Box Header-->
+                    <div class="popup-Header">
+                        <span class="close" id="closeIt">&times;</span>
+                    </div>
+                    <!-- Popup Box Body-->
+                    <div class="popup-Body chart-container" id="popupBody" style="color: black">
+                        <!--                    <div class="popup-Body chart-container" id="popupBody">-->
+                        <!--                        <canvas id = "stackedChart" style="background:#fff; height:200px;"></canvas>-->
+                    </div>
+                    <!--Popup Box Footer-->
+                    <div class="popup-Footer">
+                    </div>
+                </div>
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+
+    <div id="popover" style="border-style: solid; opacity: 0;" hidden></div>
+
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" id="tutorial" data-toggle="modal" data-target="#tutorialmodal" disabled hidden>Tutorial</button>
+
+    <!-- Tutorial Modal -->
+    <div id="tutorialmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Tutorial Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Application Tutorial</h4>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" style="border: 0;" height="315" controls><source src="https://www.dropbox.com/s/enwaulcy3qhrtdv/CovidToolkitTutorialV4_1.mp4?raw=1" type="video/mp4" autostart="false"></video>
+<!--                    <div id="carousel-generic" class="carousel slide" data-ride="carousel" data-interval="false">-->
+<!--                        &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+<!--                        <div class="carousel-inner">-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/plotGraph.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>You can plot individual graphs of datasets, and hide them.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/resizeGraph.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>Graphs resize automatically when the user interface is resized.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/combineGraph.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>'Add Graph' places this graph below existing graphs in the Data Graphs tab. 'Combine Graph' places this graph's points inside of all existing graphs in the Data Graphs tab.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item active">-->
+<!--                                <img class="img-responsive" src="images/gif/geoComp1.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>Search for crop Geo-Comparison data and toggle the layers. Use time slider to control the year to be displayed. The legend is based on standard deviations and the z-score. The greener or redder the country color, the higher or lower-->
+<!--                                        the crop production is for that country compared to the average of all of the available countries' production.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item ">-->
+<!--                                <img class="img-responsive" src="images/gif/geoComp2.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>Zoom into a country to view the specified amount of production in tons. Right click and hold to drag and tilt the globe.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/searchWeather.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>Find current weather of a city, including temperature, pressure, humidity, sunrise, sunset, and etc.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/projections.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>Change projection type and use the search button to specific cities around the globe. Turn on the music with audio control. </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="item">-->
+<!--                                <img class="img-responsive" src="images/gif/draggable.gif" alt="...">-->
+<!--                                <div class="carousel-caption">-->
+<!--                                    <p>The user interface is draggable, scrollable, and resizable vertically, horizontally, and diagonally.</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        &lt;!&ndash; Controls &ndash;&gt;-->
+<!--                        <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">-->
+<!--                            <span class="glyphicon glyphicon-chevron-left"></span>-->
+<!--                        </a>-->
+<!--                        <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">-->
+<!--                            <span class="glyphicon glyphicon-chevron-right"></span>-->
+<!--                        </a>-->
+<!--                    </div>-->
+                </div>
+<!--                <div class="modal-footer">-->
+<!--                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+<!--                </div>-->
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<div id="overlay">
+    <div class="spinner"></div>
+</div>
+<!--<div id="cookieconsent"></div>-->
+<!--<div id="popover" style="border-style: solid; opacity: 0;" hidden></div>-->
+<script>
+    // $(document).ready(function () {
+    //     // $.get("path to csv", function (data){
+    //     //     console.log(data);
+    //     // })
+    //     // flatpickr(".date", {
+    //     //     defaultDate: dataAll.arrDate[dataAll.arrDate.length - 1].Date,
+    //     //     dateFormat: "Y-m-d",
+    //     //     time_24hr: true
+    //     // });
+    //     //     alert('Welcome to CitySmart V2! Our application works best on the most recent version of Chrome. If you are experiencing any problems, try switching a browser.');
+    //     //     alert('Please wait for our application to finish loading before attempting to login.');
+    //
+    //
+    // });
+    let overlay = document.getElementById("overlay");
+    let tutorial = document.getElementById("tutorial");
+
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#252e39"
+            },
+            "button": {
+                "background": "#14a7d0"
+            }
+        },
+        "theme": "classic",
+        "position": "top",
+        "content": {
+            "message": 'We use cookies! By using our site you agree to our use of cookies to deliver a better site experience.',
+            "dismiss": 'Got it!',
+        }
+    }); //A banner that asks for cookie consent
+
+    async function hideDialog (){
+        overlay.style.display = 'none'; //hides the loading sign
+        tutorial.hidden = false;
+        tutorial.disabled = false;
+        tutorial.style.display = 'table-cell';
+        document.getElementById("controls-span").classList.remove("disabled-icon");
+        document.getElementById("drawingtools-span").classList.remove("disabled-icon");
+        document.getElementById("diseasetrends-span").classList.remove("disabled-icon");
+        document.getElementById("reset-span").classList.remove("disabled-icon");
+        document.getElementById("charts").classList.remove("disabled-icon");
+
+        document.getElementById("controls-span").classList.add("enabled-icon");
+        document.getElementById("drawingtools-span").classList.add("enabled-icon");
+        document.getElementById("diseasetrends-span").classList.add("enabled-icon");
+        document.getElementById("reset-span").classList.add("enabled-icon");
+        document.getElementById("charts").classList.add("enabled-icon");
+        document.getElementById("diseasetrends-tab").click(); //Open the disease trends menu
+        // openTabRight(new CustomEvent ('click'), "graphs");
+        // openTabInfo(new CustomEvent ('click'), 'confirmed_cases');
+        $('#dialog').hide();
+        $('#dialogDateRange').hide();
+        // openTabInfo(new CustomEvent ('click'), 'confirmed_cases');
+        // document.getElementById("charts").click();
+        AutoRefresh(86400000); //Refreshes the page after one day (so the necessary data can be updated)
+    }
+
+    function onFunction() {
+        alert ("You are back online!");
+    }
+
+    function offFunction() {
+        alert ("Your are offline. Some functionality may be unavailable.");
+    }
+
+    function AutoRefresh( t ) {
+        setTimeout("location.reload(true);", t);
+    }
+
+</script>
+</body>
+</html>

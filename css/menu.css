@@ -1,0 +1,396 @@
+html {
+  overflow: hidden;
+}
+.projectionTitle {
+  font-size:12px;
+}
+
+.modal-body{
+  color: white;
+}
+
+.accordion {
+  width: auto;
+  height: 70%;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+}
+
+#accordion2 {
+  height: 120px;
+}
+
+#tutorial {
+  position: fixed;
+  bottom: 8%;
+  right: 20px;
+  z-index: 99;
+  font-size: 13px;
+  display: none;
+  vertical-align: middle;
+  line-height: 1%;
+}
+
+#selectedCountry {
+  text-align: center;
+}
+
+.panel-group .panel-heading a:after {
+  content: '-';
+  width: inherit;
+  height: 70%;
+}
+.panel-group .panel-heading a.collapsed:after {
+  content: '+';
+  width: inherit;
+  height: 70%;
+}
+.panel-title {
+  font-size: 12px;
+}
+.panel{
+  font-size:10px;
+  /*font-size:10vw;*/
+  /*opacity: 50%;*/
+  width: inherit;
+  background-color: transparent;
+}
+
+.panel-group{
+  width: auto;
+  height: 70%;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+}
+
+.panel-body .panel-collapse{
+  width: inherit;
+}
+
+.menuWords {
+  /*font-family: "Helvetica Neue,Helvetica,Arial,sans-serif";*/
+  font-family: Helvetica;
+  color: #daf3ca;
+  font-size: 0.8vw;
+}
+
+.medium-3{
+  width:22%;
+}
+.switch
+{
+  position: relative;
+  margin-bottom:-1px;
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+  margin-left: 1%;
+}
+
+.switch input
+{
+  display: none;
+}
+
+.slider
+{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before
+{
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 13px;
+  left: 2px;
+  bottom: 1.5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider
+{
+  background-color: #2196F3;
+}
+
+input:focus + .slider
+{
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before
+{
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+
+.slider.round
+{
+  border-radius: 10px;
+}
+
+.slider.round:before
+{
+  border-radius: 60%;
+}
+
+ul.nav {
+  position: relative;
+  margin-left: 500px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+/*
+.ec-menu {
+  position: relative;
+}
+*/
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+/*
+.ec-submenu>.ec-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+*/
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+/*
+.ec-submenu:hover>.ec-menu {
+  display: block;
+}
+*/
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+/*
+.ec-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+*/
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+/*
+.ec-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+*/
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+/*This makes the dropdown menu fit the width of the buttons above, so it doesn't look out of place*/
+.dropdown-menu {
+  min-width: 100%;
+  position: initial;
+}
+
+.disabled-icon {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.disabled-menu {
+  disabled: true;
+  /*color: gray;*/
+  /*border-color: gray;*/
+  opacity: 0.5;
+}
+.disabled-link {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.enabled-icon {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.h4-sitename {
+  text-align: center;
+}
+/*.hiddenTabInfo {*/
+/*  display: none;*/
+/*}*/
+/*.displayTabInfo {*/
+/*  display: block;*/
+/*}*/
+div.displayTabInfo {
+  display: block;
+  margin-top: 5%;
+}
+div.vaccTab {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+div.COVIDTab {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.site-description {
+  text-align: center;
+}
+/*
+.ec-submenu.pull-left>.ec-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+*/
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+  }
+
+  ul.nav li.dropdown:hover ul.dropdown-menu li.dropdown-submenu ul.dropdown-menu {
+    display: none;
+  }
+
+  ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.graphstopnav {
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+.graphstopnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.graphstopnav .icon {
+  display: none;
+}
+
+.graphstopnav {
+  /*float: none;*/
+  /*color: black;*/
+  /*padding: 12px 16px;*/
+  /*text-decoration: none;*/
+  /*display: block;*/
+  /*text-align: left;*/
+}
+
+.graphstopnav a:hover{
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .graphstopnav a:not(:first-child){
+    display: none;
+  }
+  .graphstopnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .graphstopnav.responsive {position: relative;}
+  .graphstopnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .graphstopnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .graphstopnav.responsive{float: none;}
+  .graphstopnav.responsive{position: relative;}
+  .graphstopnav.responsive{
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+/*
+  ul.ec-menu {
+    display: none;
+  }
+
+  ul.nav li.economics:hover ul.ec-menu {
+    display: block;
+  }
+
+  ul.nav li.economics ul.ec-menu li.ec-submenu ul.ec-menu {
+    display: none;
+  }
+
+  ul.nav li.economics ul.ec-menu li.ec-submenu:hover ul.ec-menu {
+    display: block;
+  }
+}*/

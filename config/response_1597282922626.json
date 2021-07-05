@@ -1,0 +1,3968 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0000000000001,
+          -25
+        ]
+      },
+      "properties": {
+        "Country_Region": "Australia",
+        "Last_Update": "1597282064000",
+        "Lat": -25,
+        "Long_": 133,
+        "Confirmed": 22417,
+        "Deaths": 361,
+        "Recovered": 12779,
+        "Active": 9277
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5501,
+          47.5162
+        ]
+      },
+      "properties": {
+        "Country_Region": "Austria",
+        "Last_Update": "1597282064000",
+        "Lat": 47.5162,
+        "Long_": 14.5501,
+        "Confirmed": 22439,
+        "Deaths": 724,
+        "Recovered": 20268,
+        "Active": 1447
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.001,
+          60.001
+        ]
+      },
+      "properties": {
+        "Country_Region": "Canada",
+        "Last_Update": "1597282064000",
+        "Lat": 60.001,
+        "Long_": -95.001,
+        "Confirmed": 122689,
+        "Deaths": 9052,
+        "Recovered": 108821,
+        "Active": 4816
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3055,
+          30.5928
+        ]
+      },
+      "properties": {
+        "Country_Region": "China",
+        "Last_Update": "1597282064000",
+        "Lat": 30.5928,
+        "Long_": 114.3055,
+        "Confirmed": 89044,
+        "Deaths": 4697,
+        "Recovered": 82620,
+        "Active": 1727
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5018,
+          56.2639
+        ]
+      },
+      "properties": {
+        "Country_Region": "Denmark",
+        "Last_Update": "1597282064000",
+        "Lat": 56.2639,
+        "Long_": 9.5018,
+        "Confirmed": 15423,
+        "Deaths": 621,
+        "Recovered": 13305,
+        "Active": 1497
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7482,
+          61.9241
+        ]
+      },
+      "properties": {
+        "Country_Region": "Finland",
+        "Last_Update": "1597282064000",
+        "Lat": 61.9241,
+        "Long_": 25.7482,
+        "Confirmed": 7642,
+        "Deaths": 333,
+        "Recovered": 7050,
+        "Active": 259
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      },
+      "properties": {
+        "Country_Region": "France",
+        "Last_Update": "1597282064000",
+        "Lat": 46.2276,
+        "Long_": 2.2137,
+        "Confirmed": 244088,
+        "Deaths": 30375,
+        "Recovered": 83609,
+        "Active": 130104
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.451526,
+          51.165691
+        ]
+      },
+      "properties": {
+        "Country_Region": "Germany",
+        "Last_Update": "1597282064000",
+        "Lat": 51.165691,
+        "Long_": 10.451526,
+        "Confirmed": 220859,
+        "Deaths": 9213,
+        "Recovered": 198991,
+        "Active": 12655
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.0208,
+          64.9631
+        ]
+      },
+      "properties": {
+        "Country_Region": "Iceland",
+        "Last_Update": "1597282064000",
+        "Lat": 64.9631,
+        "Long_": -19.0208,
+        "Confirmed": 1972,
+        "Deaths": 10,
+        "Recovered": 1847,
+        "Active": 115
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6921,
+          53.1424
+        ]
+      },
+      "properties": {
+        "Country_Region": "Ireland",
+        "Last_Update": "1597282064000",
+        "Lat": 53.1424,
+        "Long_": -7.6921,
+        "Confirmed": 26838,
+        "Deaths": 1774,
+        "Recovered": 23364,
+        "Active": 1700
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      },
+      "properties": {
+        "Country_Region": "Italy",
+        "Last_Update": "1597282064000",
+        "Lat": 41.8719,
+        "Long_": 12.5674,
+        "Confirmed": 251713,
+        "Deaths": 35225,
+        "Recovered": 202697,
+        "Active": 13791
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.55,
+          52.3167
+        ]
+      },
+      "properties": {
+        "Country_Region": "Netherlands",
+        "Last_Update": "1597282064000",
+        "Lat": 52.3167,
+        "Long_": 5.55,
+        "Confirmed": 61689,
+        "Deaths": 6182,
+        "Recovered": 253,
+        "Active": 55254
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4689,
+          60.472
+        ]
+      },
+      "properties": {
+        "Country_Region": "Norway",
+        "Last_Update": "1597282064000",
+        "Lat": 60.472,
+        "Long_": 8.4689,
+        "Confirmed": 9783,
+        "Deaths": 256,
+        "Recovered": 8857,
+        "Active": 670
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3188,
+          61.524
+        ]
+      },
+      "properties": {
+        "Country_Region": "Russia",
+        "Last_Update": "1597282064000",
+        "Lat": 61.524,
+        "Long_": 105.3188,
+        "Confirmed": 900745,
+        "Deaths": 15231,
+        "Recovered": 708900,
+        "Active": 176614
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      },
+      "properties": {
+        "Country_Region": "Sweden",
+        "Last_Update": "1597282064000",
+        "Lat": 60.1282,
+        "Long_": 18.6435,
+        "Confirmed": 83455,
+        "Deaths": 5774,
+        "Recovered": null,
+        "Active": 77681
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2275,
+          46.8182
+        ]
+      },
+      "properties": {
+        "Country_Region": "Switzerland",
+        "Last_Update": "1597282064000",
+        "Lat": 46.8182,
+        "Long_": 8.2275,
+        "Confirmed": 37169,
+        "Deaths": 1991,
+        "Recovered": 32700,
+        "Active": 2478
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3,
+          55
+        ]
+      },
+      "properties": {
+        "Country_Region": "United Kingdom",
+        "Last_Update": "1597282064000",
+        "Lat": 55,
+        "Long_": -3,
+        "Confirmed": 315564,
+        "Deaths": 46791,
+        "Recovered": 1465,
+        "Active": 267308
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100,
+          40
+        ]
+      },
+      "properties": {
+        "Country_Region": "US",
+        "Last_Update": "1597282064000",
+        "Lat": 40,
+        "Long_": -100,
+        "Confirmed": 5193266,
+        "Deaths": 165934,
+        "Recovered": 1753760,
+        "Active": 3273572
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74922,
+          40.463667
+        ]
+      },
+      "properties": {
+        "Country_Region": "Spain",
+        "Last_Update": "1597282064000",
+        "Lat": 40.463667,
+        "Long_": -3.74922,
+        "Confirmed": 329784,
+        "Deaths": 28579,
+        "Recovered": 150376,
+        "Active": 150829
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.5528,
+          23.6345
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mexico",
+        "Last_Update": "1597282064000",
+        "Lat": 23.6345,
+        "Long_": -102.5528,
+        "Confirmed": 498380,
+        "Deaths": 54666,
+        "Recovered": 401182,
+        "Active": 42532
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.543,
+          -35.6751
+        ]
+      },
+      "properties": {
+        "Country_Region": "Chile",
+        "Last_Update": "1597282064000",
+        "Lat": -35.6751,
+        "Long_": -71.543,
+        "Confirmed": 378168,
+        "Deaths": 10205,
+        "Recovered": 351419,
+        "Active": 16544
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.9253,
+          -14.235
+        ]
+      },
+      "properties": {
+        "Country_Region": "Brazil",
+        "Last_Update": "1597282064000",
+        "Lat": -14.235,
+        "Long_": -51.9253,
+        "Confirmed": 3164785,
+        "Deaths": 104201,
+        "Recovered": 2506228,
+        "Active": 554356
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0152,
+          -9.19
+        ]
+      },
+      "properties": {
+        "Country_Region": "Peru",
+        "Last_Update": "1597282064000",
+        "Lat": -9.19,
+        "Long_": -75.0152,
+        "Confirmed": 489680,
+        "Deaths": 21501,
+        "Recovered": 329404,
+        "Active": 138775
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2973,
+          4.5709
+        ]
+      },
+      "properties": {
+        "Country_Region": "Colombia",
+        "Last_Update": "1597282064000",
+        "Lat": 4.5709,
+        "Long_": -74.2973,
+        "Confirmed": 410453,
+        "Deaths": 13475,
+        "Recovered": 230427,
+        "Active": 166551
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.25292400000012,
+          36.204824
+        ]
+      },
+      "properties": {
+        "Country_Region": "Japan",
+        "Last_Update": "1597282064000",
+        "Lat": 36.204824,
+        "Long_": 138.252924,
+        "Confirmed": 51278,
+        "Deaths": 1066,
+        "Recovered": 35058,
+        "Active": 13619
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1656,
+          48.3794
+        ]
+      },
+      "properties": {
+        "Country_Region": "Ukraine",
+        "Last_Update": "1597282064000",
+        "Lat": 48.3794,
+        "Long_": 31.1656,
+        "Confirmed": 86504,
+        "Deaths": 1999,
+        "Recovered": 47084,
+        "Active": 37421
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.96288,
+          20.593684
+        ]
+      },
+      "properties": {
+        "Country_Region": "India",
+        "Last_Update": "1597282064000",
+        "Lat": 20.593684,
+        "Long_": 78.96288,
+        "Confirmed": 2329638,
+        "Deaths": 46091,
+        "Recovered": 1639599,
+        "Active": 643948
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.3451,
+          30.3753
+        ]
+      },
+      "properties": {
+        "Country_Region": "Pakistan",
+        "Last_Update": "1597282064000",
+        "Lat": 30.3753,
+        "Long_": 69.3451,
+        "Confirmed": 285921,
+        "Deaths": 6129,
+        "Recovered": 263193,
+        "Active": 16599
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2975,
+          18.1096
+        ]
+      },
+      "properties": {
+        "Country_Region": "Jamaica",
+        "Last_Update": "1597282064000",
+        "Lat": 18.1096,
+        "Long_": -77.2975,
+        "Confirmed": 1047,
+        "Deaths": 14,
+        "Recovered": 753,
+        "Active": 280
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6753,
+          9.082
+        ]
+      },
+      "properties": {
+        "Country_Region": "Nigeria",
+        "Last_Update": "1597282064000",
+        "Lat": 9.082,
+        "Long_": 8.6753,
+        "Confirmed": 47743,
+        "Deaths": 956,
+        "Recovered": 33943,
+        "Active": 12844
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2176,
+          12.8628
+        ]
+      },
+      "properties": {
+        "Country_Region": "Sudan",
+        "Last_Update": "1597282064000",
+        "Lat": 12.8628,
+        "Long_": 30.2176,
+        "Confirmed": 12033,
+        "Deaths": 786,
+        "Recovered": 6282,
+        "Active": 4965
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8243,
+          39.0742
+        ]
+      },
+      "properties": {
+        "Country_Region": "Greece",
+        "Last_Update": "1597282064000",
+        "Lat": 39.0742,
+        "Long_": 21.8243,
+        "Confirmed": 6177,
+        "Deaths": 216,
+        "Recovered": 1347,
+        "Active": 4614
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.481766,
+          29.31166
+        ]
+      },
+      "properties": {
+        "Country_Region": "Kuwait",
+        "Last_Update": "1597282064000",
+        "Lat": 29.31166,
+        "Long_": 47.481766,
+        "Confirmed": 73785,
+        "Deaths": 489,
+        "Recovered": 65451,
+        "Active": 7845
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9375,
+          -30.5595
+        ]
+      },
+      "properties": {
+        "Country_Region": "South Africa",
+        "Last_Update": "1597282064000",
+        "Lat": -30.5595,
+        "Long_": 22.9375,
+        "Confirmed": 568919,
+        "Deaths": 11010,
+        "Recovered": 432029,
+        "Active": 125880
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
+      },
+      "properties": {
+        "Country_Region": "Philippines",
+        "Last_Update": "1597282064000",
+        "Lat": 12.879721,
+        "Long_": 121.774017,
+        "Confirmed": 143749,
+        "Deaths": 2404,
+        "Recovered": 68997,
+        "Active": 72348
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.1839,
+          25.3548
+        ]
+      },
+      "properties": {
+        "Country_Region": "Qatar",
+        "Last_Update": "1597282064000",
+        "Lat": 25.3548,
+        "Long_": 51.1839,
+        "Confirmed": 113938,
+        "Deaths": 190,
+        "Recovered": 110627,
+        "Active": 3121
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.847818,
+          23.424076
+        ]
+      },
+      "properties": {
+        "Country_Region": "United Arab Emirates",
+        "Last_Update": "1597282064000",
+        "Lat": 23.424076,
+        "Long_": 53.847818,
+        "Confirmed": 63212,
+        "Deaths": 358,
+        "Recovered": 57193,
+        "Active": 5661
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1451,
+          51.9194
+        ]
+      },
+      "properties": {
+        "Country_Region": "Poland",
+        "Last_Update": "1597282064000",
+        "Lat": 51.9194,
+        "Long_": 19.1451,
+        "Confirmed": 53676,
+        "Deaths": 1830,
+        "Recovered": 37611,
+        "Active": 14235
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0232,
+          7.9465
+        ]
+      },
+      "properties": {
+        "Country_Region": "Ghana",
+        "Last_Update": "1597282064000",
+        "Lat": 7.9465,
+        "Long_": -1.0232,
+        "Confirmed": 41572,
+        "Deaths": 223,
+        "Recovered": 39320,
+        "Active": 2029
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0382,
+          40.0691
+        ]
+      },
+      "properties": {
+        "Country_Region": "Armenia",
+        "Last_Update": "1597282064000",
+        "Lat": 40.0691,
+        "Long_": 45.0382,
+        "Confirmed": 40794,
+        "Deaths": 806,
+        "Recovered": 33492,
+        "Active": 6496
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5769,
+          40.1431
+        ]
+      },
+      "properties": {
+        "Country_Region": "Azerbaijan",
+        "Last_Update": "1597282064000",
+        "Lat": 40.1431,
+        "Long_": 47.5769,
+        "Confirmed": 33824,
+        "Deaths": 497,
+        "Recovered": 31058,
+        "Active": 2269
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4897,
+          9.145
+        ]
+      },
+      "properties": {
+        "Country_Region": "Ethiopia",
+        "Last_Update": "1597282064000",
+        "Lat": 9.145,
+        "Long_": 40.4897,
+        "Confirmed": 25118,
+        "Deaths": 463,
+        "Recovered": 11034,
+        "Active": 13621
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2332,
+          31.9522
+        ]
+      },
+      "properties": {
+        "Country_Region": "West Bank and Gaza",
+        "Last_Update": "1597282064000",
+        "Lat": 31.9522,
+        "Long_": 35.2332,
+        "Confirmed": 15184,
+        "Deaths": 105,
+        "Recovered": 8369,
+        "Active": 6710
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.975766,
+          4.210484
+        ]
+      },
+      "properties": {
+        "Country_Region": "Malaysia",
+        "Last_Update": "1597282064000",
+        "Lat": 4.210484,
+        "Long_": 101.975766,
+        "Confirmed": 9114,
+        "Deaths": 125,
+        "Recovered": 8817,
+        "Active": 172
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9394,
+          6.6111
+        ]
+      },
+      "properties": {
+        "Country_Region": "Central African Republic",
+        "Last_Update": "1597282064000",
+        "Lat": 6.6111,
+        "Long_": 20.9394,
+        "Confirmed": 4652,
+        "Deaths": 61,
+        "Recovered": 1728,
+        "Active": 2863
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.996166,
+          17.570692
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mali",
+        "Last_Update": "1597282064000",
+        "Lat": 17.570692,
+        "Long_": -3.996166,
+        "Confirmed": 2582,
+        "Deaths": 125,
+        "Recovered": 1977,
+        "Active": 480
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5218,
+          42.5063
+        ]
+      },
+      "properties": {
+        "Country_Region": "Andorra",
+        "Last_Update": "1597282064000",
+        "Lat": 42.5063,
+        "Long_": 1.5218,
+        "Confirmed": 977,
+        "Deaths": 53,
+        "Recovered": 855,
+        "Active": 69
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6131,
+          0.1864
+        ]
+      },
+      "properties": {
+        "Country_Region": "Sao Tome and Principe",
+        "Last_Update": "1597282064000",
+        "Lat": 0.1864,
+        "Long_": 6.6131,
+        "Confirmed": 882,
+        "Deaths": 15,
+        "Recovered": 807,
+        "Active": 60
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.93018,
+          4.860416
+        ]
+      },
+      "properties": {
+        "Country_Region": "Guyana",
+        "Last_Update": "1597282064000",
+        "Lat": 4.860416,
+        "Long_": -58.93018,
+        "Confirmed": 623,
+        "Deaths": 22,
+        "Recovered": 191,
+        "Active": 410
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.4336,
+          27.5142
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bhutan",
+        "Last_Update": "1597282064000",
+        "Lat": 27.5142,
+        "Long_": 90.4336,
+        "Confirmed": 113,
+        "Deaths": 0,
+        "Recovered": 97,
+        "Active": 16
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9789,
+          13.9094
+        ]
+      },
+      "properties": {
+        "Country_Region": "Saint Lucia",
+        "Last_Update": "1597282064000",
+        "Lat": 13.9094,
+        "Long_": -60.9789,
+        "Confirmed": 25,
+        "Deaths": 0,
+        "Recovered": 25,
+        "Active": 0
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "Country_Region": "MS Zaandam",
+        "Last_Update": "1597282064000",
+        "Lat": null,
+        "Long_": null,
+        "Confirmed": 9,
+        "Deaths": 2,
+        "Recovered": null,
+        "Active": 7
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.902977,
+          42.602636
+        ]
+      },
+      "properties": {
+        "Country_Region": "Kosovo",
+        "Last_Update": "1597282064000",
+        "Lat": 42.602636,
+        "Long_": 20.902977,
+        "Confirmed": 10419,
+        "Deaths": 341,
+        "Recovered": 6058,
+        "Active": 4020
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.996815,
+          34.802075
+        ]
+      },
+      "properties": {
+        "Country_Region": "Syria",
+        "Last_Update": "1597282064000",
+        "Lat": 34.802075,
+        "Long_": 38.996815,
+        "Confirmed": 1327,
+        "Deaths": 53,
+        "Recovered": 385,
+        "Active": 889
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.429499,
+          6.428055
+        ]
+      },
+      "properties": {
+        "Country_Region": "Liberia",
+        "Last_Update": "1597282064000",
+        "Lat": 6.428055,
+        "Long_": -9.429499,
+        "Confirmed": 1252,
+        "Deaths": 82,
+        "Recovered": 738,
+        "Active": 432
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.688046,
+          32.427908
+        ]
+      },
+      "properties": {
+        "Country_Region": "Iran",
+        "Last_Update": "1597282064000",
+        "Lat": 32.427908,
+        "Long_": 53.688046,
+        "Confirmed": 333699,
+        "Deaths": 18988,
+        "Recovered": 290244,
+        "Active": 24467
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6167,
+          -38.4161
+        ]
+      },
+      "properties": {
+        "Country_Region": "Argentina",
+        "Last_Update": "1597282064000",
+        "Lat": -38.4161,
+        "Long_": -63.6167,
+        "Confirmed": 268574,
+        "Deaths": 5213,
+        "Recovered": 187283,
+        "Active": 76078
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9213,
+          -0.7893
+        ]
+      },
+      "properties": {
+        "Country_Region": "Indonesia",
+        "Last_Update": "1597282064000",
+        "Lat": -0.7893,
+        "Long_": 113.9213,
+        "Confirmed": 130718,
+        "Deaths": 5903,
+        "Recovered": 85798,
+        "Active": 39017
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2308,
+          15.7835
+        ]
+      },
+      "properties": {
+        "Country_Region": "Guatemala",
+        "Last_Update": "1597282064000",
+        "Lat": 15.7835,
+        "Long_": -90.2308,
+        "Confirmed": 59089,
+        "Deaths": 2267,
+        "Recovered": 47394,
+        "Active": 9428
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8965,
+          13.7942
+        ]
+      },
+      "properties": {
+        "Country_Region": "El Salvador",
+        "Last_Update": "1597282064000",
+        "Lat": 13.7942,
+        "Long_": -88.8965,
+        "Confirmed": 21644,
+        "Deaths": 577,
+        "Recovered": 10056,
+        "Active": 11011
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.4524,
+          14.4974
+        ]
+      },
+      "properties": {
+        "Country_Region": "Senegal",
+        "Last_Update": "1597282064000",
+        "Lat": 14.4974,
+        "Long_": -14.4524,
+        "Confirmed": 11587,
+        "Deaths": 242,
+        "Recovered": 7523,
+        "Active": 3822
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7587,
+          -4.0383
+        ]
+      },
+      "properties": {
+        "Country_Region": "Congo (Kinshasa)",
+        "Last_Update": "1597282064000",
+        "Lat": -4.0383,
+        "Long_": 21.7587,
+        "Confirmed": 9538,
+        "Deaths": 225,
+        "Recovered": 8421,
+        "Active": 892
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.6966,
+          9.9456
+        ]
+      },
+      "properties": {
+        "Country_Region": "Guinea",
+        "Last_Update": "1597282064000",
+        "Lat": 9.9456,
+        "Long_": -9.6966,
+        "Confirmed": 8116,
+        "Deaths": 50,
+        "Recovered": 7060,
+        "Active": 1006
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8623,
+          33.8547
+        ]
+      },
+      "properties": {
+        "Country_Region": "Lebanon",
+        "Last_Update": "1597282064000",
+        "Lat": 33.8547,
+        "Long_": 35.8623,
+        "Confirmed": 7413,
+        "Deaths": 89,
+        "Recovered": 2407,
+        "Active": 4917
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.228331,
+          26.3351
+        ]
+      },
+      "properties": {
+        "Country_Region": "Libya",
+        "Last_Update": "1597282064000",
+        "Lat": 26.3351,
+        "Long_": 17.228331,
+        "Confirmed": 6611,
+        "Deaths": 132,
+        "Recovered": 778,
+        "Active": 5701
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.199616,
+          5.152149
+        ]
+      },
+      "properties": {
+        "Country_Region": "Somalia",
+        "Last_Update": "1597282064000",
+        "Lat": 5.152149,
+        "Long_": 46.199616,
+        "Confirmed": 3227,
+        "Deaths": 93,
+        "Recovered": 1728,
+        "Active": 1406
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.781167,
+          21.521757
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cuba",
+        "Last_Update": "1597282064000",
+        "Lat": 21.521757,
+        "Long_": -77.781167,
+        "Confirmed": 3128,
+        "Deaths": 88,
+        "Recovered": 2504,
+        "Active": 536
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8813,
+          55.1694
+        ]
+      },
+      "properties": {
+        "Country_Region": "Lithuania",
+        "Last_Update": "1597282064000",
+        "Lat": 55.1694,
+        "Long_": 23.8813,
+        "Confirmed": 2309,
+        "Deaths": 81,
+        "Recovered": 1683,
+        "Active": 545
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8739,
+          -1.9403
+        ]
+      },
+      "properties": {
+        "Country_Region": "Rwanda",
+        "Last_Update": "1597282064000",
+        "Lat": -1.9403,
+        "Long_": 29.8739,
+        "Confirmed": 2189,
+        "Deaths": 8,
+        "Recovered": 1524,
+        "Active": 657
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4578,
+          43.9424
+        ]
+      },
+      "properties": {
+        "Country_Region": "San Marino",
+        "Last_Update": "1597282064000",
+        "Lat": 43.9424,
+        "Long_": 12.4578,
+        "Confirmed": 699,
+        "Deaths": 42,
+        "Recovered": 657,
+        "Active": 0
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.552152,
+          -20.348404
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mauritius",
+        "Last_Update": "1597282064000",
+        "Lat": -20.348404,
+        "Long_": 57.552152,
+        "Confirmed": 344,
+        "Deaths": 10,
+        "Recovered": 334,
+        "Active": 0
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.2225,
+          10.6918
+        ]
+      },
+      "properties": {
+        "Country_Region": "Trinidad and Tobago",
+        "Last_Update": "1597282064000",
+        "Lat": 10.6918,
+        "Long_": -61.2225,
+        "Confirmed": 326,
+        "Deaths": 8,
+        "Recovered": 139,
+        "Active": 179
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          47.14
+        ]
+      },
+      "properties": {
+        "Country_Region": "Liechtenstein",
+        "Last_Update": "1597282064000",
+        "Lat": 47.14,
+        "Long_": 9.55,
+        "Confirmed": 90,
+        "Deaths": 1,
+        "Recovered": 87,
+        "Active": 2
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9534,
+          53.7098
+        ]
+      },
+      "properties": {
+        "Country_Region": "Belarus",
+        "Last_Update": "1597282064000",
+        "Lat": 53.7098,
+        "Long_": 27.9534,
+        "Confirmed": 69102,
+        "Deaths": 595,
+        "Recovered": 65893,
+        "Active": 2614
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.851612,
+          31.046051
+        ]
+      },
+      "properties": {
+        "Country_Region": "Israel",
+        "Last_Update": "1597282064000",
+        "Lat": 31.046051,
+        "Long_": 34.851612,
+        "Confirmed": 88151,
+        "Deaths": 639,
+        "Recovered": 62109,
+        "Active": 25403
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.923255,
+          21.512583
+        ]
+      },
+      "properties": {
+        "Country_Region": "Oman",
+        "Last_Update": "1597282064000",
+        "Lat": 21.512583,
+        "Long_": 55.923255,
+        "Confirmed": 82299,
+        "Deaths": 539,
+        "Recovered": 77072,
+        "Active": 4688
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8333,
+          1.2833
+        ]
+      },
+      "properties": {
+        "Country_Region": "Singapore",
+        "Last_Update": "1597282064000",
+        "Lat": 1.2833,
+        "Long_": 103.8333,
+        "Confirmed": 55395,
+        "Deaths": 27,
+        "Recovered": 50520,
+        "Active": 4848
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2419,
+          15.2
+        ]
+      },
+      "properties": {
+        "Country_Region": "Honduras",
+        "Last_Update": "1597282064000",
+        "Lat": 15.2,
+        "Long_": -86.2419,
+        "Confirmed": 48403,
+        "Deaths": 1515,
+        "Recovered": 6805,
+        "Active": 40083
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.766098,
+          41.20438
+        ]
+      },
+      "properties": {
+        "Country_Region": "Kyrgyzstan",
+        "Last_Update": "1597282064000",
+        "Lat": 41.20438,
+        "Long_": 74.766098,
+        "Confirmed": 40759,
+        "Deaths": 1484,
+        "Recovered": 32997,
+        "Active": 6278
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5021,
+          3.848
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cameroon",
+        "Last_Update": "1597282064000",
+        "Lat": 3.848,
+        "Long_": 11.5021,
+        "Confirmed": 18263,
+        "Deaths": 401,
+        "Recovered": 15320,
+        "Active": 2542
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5471,
+          7.54
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cote d'Ivoire",
+        "Last_Update": "1597282064000",
+        "Lat": 7.54,
+        "Long_": -5.5471,
+        "Confirmed": 16847,
+        "Deaths": 105,
+        "Recovered": 13321,
+        "Active": 3421
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4858,
+          42.7339
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bulgaria",
+        "Last_Update": "1597282064000",
+        "Lat": 42.7339,
+        "Long_": 25.4858,
+        "Confirmed": 13893,
+        "Deaths": 482,
+        "Recovered": 8479,
+        "Active": 4932
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7453,
+          41.6086
+        ]
+      },
+      "properties": {
+        "Country_Region": "North Macedonia",
+        "Last_Update": "1597282064000",
+        "Lat": 41.6086,
+        "Long_": 21.7453,
+        "Confirmed": 12217,
+        "Deaths": 530,
+        "Recovered": 8487,
+        "Active": 3200
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2852,
+          18.9712
+        ]
+      },
+      "properties": {
+        "Country_Region": "Haiti",
+        "Last_Update": "1597282064000",
+        "Lat": 18.9712,
+        "Long_": -72.2852,
+        "Confirmed": 7743,
+        "Deaths": 187,
+        "Recovered": 5123,
+        "Active": 2433
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5903,
+          11.8251
+        ]
+      },
+      "properties": {
+        "Country_Region": "Djibouti",
+        "Last_Update": "1597282064000",
+        "Lat": 11.8251,
+        "Long_": 42.5903,
+        "Confirmed": 5358,
+        "Deaths": 59,
+        "Recovered": 5150,
+        "Active": 149
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0136,
+          58.5953
+        ]
+      },
+      "properties": {
+        "Country_Region": "Estonia",
+        "Last_Update": "1597282064000",
+        "Lat": 58.5953,
+        "Long_": 25.0136,
+        "Confirmed": 2174,
+        "Deaths": 63,
+        "Recovered": 1975,
+        "Active": 136
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.1804,
+          11.8037
+        ]
+      },
+      "properties": {
+        "Country_Region": "Guinea-Bissau",
+        "Last_Update": "1597282064000",
+        "Lat": 11.8037,
+        "Long_": -15.1804,
+        "Confirmed": 2088,
+        "Deaths": 29,
+        "Recovered": 1015,
+        "Active": 1044
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7658,
+          -32.5228
+        ]
+      },
+      "properties": {
+        "Country_Region": "Uruguay",
+        "Last_Update": "1597282064000",
+        "Lat": -32.5228,
+        "Long_": -55.7658,
+        "Confirmed": 1393,
+        "Deaths": 37,
+        "Recovered": 1163,
+        "Active": 193
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4299,
+          35.1264
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cyprus",
+        "Last_Update": "1597282064000",
+        "Lat": 35.1264,
+        "Long_": 33.4299,
+        "Confirmed": 1291,
+        "Deaths": 20,
+        "Recovered": 870,
+        "Active": 401
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8248,
+          8.6195
+        ]
+      },
+      "properties": {
+        "Country_Region": "Togo",
+        "Last_Update": "1597282064000",
+        "Lat": 8.6195,
+        "Long_": 0.8248,
+        "Confirmed": 1092,
+        "Deaths": 26,
+        "Recovered": 782,
+        "Active": 284
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6849,
+          -22.3285
+        ]
+      },
+      "properties": {
+        "Country_Region": "Botswana",
+        "Last_Update": "1597282064000",
+        "Lat": -22.3285,
+        "Long_": 24.6849,
+        "Confirmed": 1066,
+        "Deaths": 2,
+        "Recovered": 80,
+        "Active": 984
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2336,
+          -29.61
+        ]
+      },
+      "properties": {
+        "Country_Region": "Lesotho",
+        "Last_Update": "1597282064000",
+        "Lat": -29.61,
+        "Long_": 28.2336,
+        "Confirmed": 798,
+        "Deaths": 24,
+        "Recovered": 175,
+        "Active": 599
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3333,
+          -11.6455
+        ]
+      },
+      "properties": {
+        "Country_Region": "Comoros",
+        "Last_Update": "1597282064000",
+        "Lat": -11.6455,
+        "Long_": 43.3333,
+        "Confirmed": 399,
+        "Deaths": 7,
+        "Recovered": 379,
+        "Active": 13
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.95555,
+          -6.314993
+        ]
+      },
+      "properties": {
+        "Country_Region": "Papua New Guinea",
+        "Last_Update": "1597282064000",
+        "Lat": -6.314993,
+        "Long_": 143.95555,
+        "Confirmed": 287,
+        "Deaths": 3,
+        "Recovered": 78,
+        "Active": 206
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4167,
+          43.7333
+        ]
+      },
+      "properties": {
+        "Country_Region": "Monaco",
+        "Last_Update": "1597282064000",
+        "Lat": 43.7333,
+        "Long_": 7.4167,
+        "Confirmed": 141,
+        "Deaths": 4,
+        "Recovered": 114,
+        "Active": 23
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7964,
+          17.0608
+        ]
+      },
+      "properties": {
+        "Country_Region": "Antigua and Barbuda",
+        "Last_Update": "1597282064000",
+        "Lat": 17.0608,
+        "Long_": -61.7964,
+        "Confirmed": 92,
+        "Deaths": 3,
+        "Recovered": 76,
+        "Active": 13
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1627,
+          18.7357
+        ]
+      },
+      "properties": {
+        "Country_Region": "Dominican Republic",
+        "Last_Update": "1597282064000",
+        "Lat": 18.7357,
+        "Long_": -70.1627,
+        "Confirmed": 82224,
+        "Deaths": 1371,
+        "Recovered": 47095,
+        "Active": 33758
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.55,
+          26.0275
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bahrain",
+        "Last_Update": "1597282064000",
+        "Lat": 26.0275,
+        "Long_": 50.55,
+        "Confirmed": 45264,
+        "Deaths": 166,
+        "Recovered": 41836,
+        "Active": 3262
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5897,
+          6.4238
+        ]
+      },
+      "properties": {
+        "Country_Region": "Venezuela",
+        "Last_Update": "1597282064000",
+        "Lat": 6.4238,
+        "Long_": -66.5897,
+        "Confirmed": 27938,
+        "Deaths": 238,
+        "Recovered": 19706,
+        "Active": 7994
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7534,
+          9.7489
+        ]
+      },
+      "properties": {
+        "Country_Region": "Costa Rica",
+        "Last_Update": "1597282064000",
+        "Lat": 9.7489,
+        "Long_": -83.7534,
+        "Confirmed": 25057,
+        "Deaths": 263,
+        "Recovered": 8189,
+        "Active": 16605
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6094,
+          -0.8037
+        ]
+      },
+      "properties": {
+        "Country_Region": "Gabon",
+        "Last_Update": "1597282064000",
+        "Lat": -0.8037,
+        "Long_": 11.6094,
+        "Confirmed": 8077,
+        "Deaths": 51,
+        "Recovered": 5920,
+        "Active": 2106
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4438,
+          -23.4425
+        ]
+      },
+      "properties": {
+        "Country_Region": "Paraguay",
+        "Last_Update": "1597282064000",
+        "Lat": -23.4425,
+        "Long_": -58.4438,
+        "Confirmed": 7519,
+        "Deaths": 86,
+        "Recovered": 5326,
+        "Active": 2107
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.9408,
+          21.0079
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mauritania",
+        "Last_Update": "1597282064000",
+        "Lat": 21.0079,
+        "Long_": -10.9408,
+        "Confirmed": 6622,
+        "Deaths": 157,
+        "Recovered": 5741,
+        "Active": 724
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3015,
+          -13.2543
+        ]
+      },
+      "properties": {
+        "Country_Region": "Malawi",
+        "Last_Update": "1597282064000",
+        "Lat": -13.2543,
+        "Long_": 34.3015,
+        "Confirmed": 4752,
+        "Deaths": 152,
+        "Recovered": 2529,
+        "Active": 2071
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.0418,
+          16.5388
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cabo Verde",
+        "Last_Update": "1597282064000",
+        "Lat": 16.5388,
+        "Long_": -23.0418,
+        "Confirmed": 3000,
+        "Deaths": 33,
+        "Recovered": 2172,
+        "Active": 795
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.886,
+          -40.9006
+        ]
+      },
+      "properties": {
+        "Country_Region": "New Zealand",
+        "Last_Update": "1597282064000",
+        "Lat": -40.9006,
+        "Long_": 174.886,
+        "Confirmed": 1579,
+        "Deaths": 22,
+        "Recovered": 1531,
+        "Active": 26
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.3101,
+          13.4432
+        ]
+      },
+      "properties": {
+        "Country_Region": "Gambia",
+        "Last_Update": "1597282064000",
+        "Lat": 13.4432,
+        "Long_": -15.3101,
+        "Confirmed": 1477,
+        "Deaths": 33,
+        "Recovered": 247,
+        "Active": 1197
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6032,
+          56.8796
+        ]
+      },
+      "properties": {
+        "Country_Region": "Latvia",
+        "Last_Update": "1597282064000",
+        "Lat": 56.8796,
+        "Long_": 24.6032,
+        "Confirmed": 1303,
+        "Deaths": 32,
+        "Recovered": 1078,
+        "Active": 193
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5616,
+          12.2383
+        ]
+      },
+      "properties": {
+        "Country_Region": "Burkina Faso",
+        "Last_Update": "1597282064000",
+        "Lat": 12.2383,
+        "Long_": -1.5616,
+        "Confirmed": 1213,
+        "Deaths": 54,
+        "Recovered": 995,
+        "Active": 164
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "Country_Region": "Diamond Princess",
+        "Last_Update": "1597282064000",
+        "Lat": null,
+        "Long_": null,
+        "Confirmed": 712,
+        "Deaths": 13,
+        "Recovered": 651,
+        "Active": 48
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7823,
+          15.1794
+        ]
+      },
+      "properties": {
+        "Country_Region": "Eritrea",
+        "Last_Update": "1597282064000",
+        "Lat": 15.1794,
+        "Long_": 39.7823,
+        "Confirmed": 285,
+        "Deaths": 0,
+        "Recovered": 248,
+        "Active": 37
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9167,
+          11.55
+        ]
+      },
+      "properties": {
+        "Country_Region": "Cambodia",
+        "Last_Update": "1597282064000",
+        "Lat": 11.55,
+        "Long_": 104.9167,
+        "Confirmed": 268,
+        "Deaths": 0,
+        "Recovered": 220,
+        "Active": 48
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4534,
+          41.9029
+        ]
+      },
+      "properties": {
+        "Country_Region": "Holy See",
+        "Last_Update": "1597282064000",
+        "Lat": 41.9029,
+        "Long_": 12.4534,
+        "Confirmed": 12,
+        "Deaths": 0,
+        "Recovered": 12,
+        "Active": 0
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.079162,
+          23.885942
+        ]
+      },
+      "properties": {
+        "Country_Region": "Saudi Arabia",
+        "Last_Update": "1597282064000",
+        "Lat": 23.885942,
+        "Long_": 45.079162,
+        "Confirmed": 293037,
+        "Deaths": 3269,
+        "Recovered": 257269,
+        "Active": 32499
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.679291,
+          33.223191
+        ]
+      },
+      "properties": {
+        "Country_Region": "Iraq",
+        "Last_Update": "1597282064000",
+        "Lat": 33.223191,
+        "Long_": 43.679291,
+        "Confirmed": 160436,
+        "Deaths": 5588,
+        "Recovered": 114541,
+        "Active": 40307
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.802498,
+          26.820553
+        ]
+      },
+      "properties": {
+        "Country_Region": "Egypt",
+        "Last_Update": "1597282064000",
+        "Lat": 26.820553,
+        "Long_": 30.802498,
+        "Confirmed": 95963,
+        "Deaths": 5085,
+        "Recovered": 55901,
+        "Active": 34977
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7821,
+          8.538
+        ]
+      },
+      "properties": {
+        "Country_Region": "Panama",
+        "Last_Update": "1597282064000",
+        "Lat": 8.538,
+        "Long_": -80.7821,
+        "Confirmed": 77377,
+        "Deaths": 1703,
+        "Recovered": 51597,
+        "Active": 24077
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2245,
+          39.3999
+        ]
+      },
+      "properties": {
+        "Country_Region": "Portugal",
+        "Last_Update": "1597282064000",
+        "Lat": 39.3999,
+        "Long_": -8.2245,
+        "Confirmed": 53223,
+        "Deaths": 1764,
+        "Recovered": 38940,
+        "Active": 12519
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.992541,
+          15.870032
+        ]
+      },
+      "properties": {
+        "Country_Region": "Thailand",
+        "Last_Update": "1597282064000",
+        "Lat": 15.870032,
+        "Long_": 100.992541,
+        "Confirmed": 3356,
+        "Deaths": 58,
+        "Recovered": 3169,
+        "Active": 129
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.516388,
+          15.552727
+        ]
+      },
+      "properties": {
+        "Country_Region": "Yemen",
+        "Last_Update": "1597282064000",
+        "Lat": 15.552727,
+        "Long_": 48.516388,
+        "Confirmed": 1841,
+        "Deaths": 528,
+        "Recovered": 937,
+        "Active": 376
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.537499,
+          33.886917
+        ]
+      },
+      "properties": {
+        "Country_Region": "Tunisia",
+        "Last_Update": "1597282064000",
+        "Lat": 33.886917,
+        "Long_": 9.537499,
+        "Confirmed": 1780,
+        "Deaths": 52,
+        "Recovered": 1278,
+        "Active": 450
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.290275,
+          1.373333
+        ]
+      },
+      "properties": {
+        "Country_Region": "Uganda",
+        "Last_Update": "1597282064000",
+        "Lat": 1.373333,
+        "Long_": 32.290275,
+        "Confirmed": 1332,
+        "Deaths": 9,
+        "Recovered": 1139,
+        "Active": 184
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7322,
+          15.4542
+        ]
+      },
+      "properties": {
+        "Country_Region": "Chad",
+        "Last_Update": "1597282064000",
+        "Lat": 15.4542,
+        "Long_": 18.7322,
+        "Confirmed": 949,
+        "Deaths": 76,
+        "Recovered": 859,
+        "Active": 14
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7277,
+          4.5353
+        ]
+      },
+      "properties": {
+        "Country_Region": "Brunei",
+        "Last_Update": "1597282064000",
+        "Lat": 4.5353,
+        "Long_": 114.7277,
+        "Confirmed": 142,
+        "Deaths": 3,
+        "Recovered": 138,
+        "Active": 1
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.492,
+          -4.6796
+        ]
+      },
+      "properties": {
+        "Country_Region": "Seychelles",
+        "Last_Update": "1597282064000",
+        "Lat": -4.6796,
+        "Long_": 55.492,
+        "Confirmed": 127,
+        "Deaths": 0,
+        "Recovered": 126,
+        "Active": 1
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.727539,
+          -8.874217
+        ]
+      },
+      "properties": {
+        "Country_Region": "Timor-Leste",
+        "Last_Update": "1597282064000",
+        "Lat": -8.874217,
+        "Long_": 125.727539,
+        "Confirmed": 25,
+        "Deaths": 0,
+        "Recovered": 24,
+        "Active": 1
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1834,
+          -1.8312
+        ]
+      },
+      "properties": {
+        "Country_Region": "Ecuador",
+        "Last_Update": "1597282064000",
+        "Lat": -1.8312,
+        "Long_": -78.1834,
+        "Confirmed": 97110,
+        "Deaths": 5984,
+        "Recovered": 78887,
+        "Active": 12239
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5887,
+          -16.2902
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bolivia",
+        "Last_Update": "1597282064000",
+        "Lat": -16.2902,
+        "Long_": -63.5887,
+        "Confirmed": 93328,
+        "Deaths": 3761,
+        "Recovered": 31753,
+        "Active": 57814
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6596,
+          28.0339
+        ]
+      },
+      "properties": {
+        "Country_Region": "Algeria",
+        "Last_Update": "1597282064000",
+        "Lat": 28.0339,
+        "Long_": 1.6596,
+        "Confirmed": 36699,
+        "Deaths": 1333,
+        "Recovered": 25627,
+        "Active": 9739
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.25,
+          28.1667
+        ]
+      },
+      "properties": {
+        "Country_Region": "Nepal",
+        "Last_Update": "1597282064000",
+        "Lat": 28.1667,
+        "Long_": 84.25,
+        "Confirmed": 24432,
+        "Deaths": 91,
+        "Recovered": 16728,
+        "Active": 7613
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.473,
+          49.8175
+        ]
+      },
+      "properties": {
+        "Country_Region": "Czechia",
+        "Last_Update": "1597282064000",
+        "Lat": 49.8175,
+        "Long_": 15.473,
+        "Confirmed": 19075,
+        "Deaths": 391,
+        "Recovered": 13407,
+        "Active": 5277
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.154857,
+          -19.015438
+        ]
+      },
+      "properties": {
+        "Country_Region": "Zimbabwe",
+        "Last_Update": "1597282064000",
+        "Lat": -19.015438,
+        "Long_": 29.154857,
+        "Confirmed": 4893,
+        "Deaths": 122,
+        "Recovered": 1620,
+        "Active": 3151
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5033,
+          47.1625
+        ]
+      },
+      "properties": {
+        "Country_Region": "Hungary",
+        "Last_Update": "1597282064000",
+        "Lat": 47.1625,
+        "Long_": 19.5033,
+        "Confirmed": 4768,
+        "Deaths": 605,
+        "Recovered": 3529,
+        "Active": 634
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.37439,
+          42.708678
+        ]
+      },
+      "properties": {
+        "Country_Region": "Montenegro",
+        "Last_Update": "1597282064000",
+        "Lat": 42.708678,
+        "Long_": 19.37439,
+        "Confirmed": 3813,
+        "Deaths": 73,
+        "Recovered": 2638,
+        "Active": 1102
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4904,
+          -22.9576
+        ]
+      },
+      "properties": {
+        "Country_Region": "Namibia",
+        "Last_Update": "1597282064000",
+        "Lat": -22.9576,
+        "Long_": 18.4904,
+        "Confirmed": 3406,
+        "Deaths": 22,
+        "Recovered": 835,
+        "Active": 2549
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.699,
+          48.669
+        ]
+      },
+      "properties": {
+        "Country_Region": "Slovakia",
+        "Last_Update": "1597282064000",
+        "Lat": 48.669,
+        "Long_": 19.699,
+        "Confirmed": 2690,
+        "Deaths": 31,
+        "Recovered": 1884,
+        "Active": 775
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3158,
+          9.3077
+        ]
+      },
+      "properties": {
+        "Country_Region": "Benin",
+        "Last_Update": "1597282064000",
+        "Lat": 9.3077,
+        "Long_": 2.3158,
+        "Confirmed": 2014,
+        "Deaths": 38,
+        "Recovered": 1681,
+        "Active": 295
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8739,
+          -11.2027
+        ]
+      },
+      "properties": {
+        "Country_Region": "Angola",
+        "Last_Update": "1597282064000",
+        "Lat": -11.2027,
+        "Long_": 17.8739,
+        "Confirmed": 1762,
+        "Deaths": 80,
+        "Recovered": 577,
+        "Active": 1105
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.035889,
+          25.025885
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bahamas",
+        "Last_Update": "1597282064000",
+        "Lat": 25.025885,
+        "Long_": -78.035889,
+        "Confirmed": 1036,
+        "Deaths": 15,
+        "Recovered": 122,
+        "Active": 899
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4976,
+          17.1899
+        ]
+      },
+      "properties": {
+        "Country_Region": "Belize",
+        "Last_Update": "1597282064000",
+        "Lat": 17.1899,
+        "Long_": -88.4976,
+        "Confirmed": 210,
+        "Deaths": 2,
+        "Recovered": 32,
+        "Active": 176
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5432,
+          13.1939
+        ]
+      },
+      "properties": {
+        "Country_Region": "Barbados",
+        "Last_Update": "1597282064000",
+        "Lat": 13.1939,
+        "Long_": -59.5432,
+        "Confirmed": 144,
+        "Deaths": 7,
+        "Recovered": 115,
+        "Active": 22
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.679,
+          12.1165
+        ]
+      },
+      "properties": {
+        "Country_Region": "Grenada",
+        "Last_Update": "1597282064000",
+        "Lat": 12.1165,
+        "Long_": -61.679,
+        "Confirmed": 24,
+        "Deaths": 0,
+        "Recovered": 23,
+        "Active": 1
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.495496,
+          19.85627
+        ]
+      },
+      "properties": {
+        "Country_Region": "Laos",
+        "Last_Update": "1597282064000",
+        "Lat": 19.85627,
+        "Long_": 102.495496,
+        "Confirmed": 20,
+        "Deaths": 0,
+        "Recovered": 19,
+        "Active": 1
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.8858,
+          24.2155
+        ]
+      },
+      "properties": {
+        "Country_Region": "Western Sahara",
+        "Last_Update": "1597282064000",
+        "Lat": 24.2155,
+        "Long_": -12.8858,
+        "Confirmed": 10,
+        "Deaths": 1,
+        "Recovered": 8,
+        "Active": 1
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3563,
+          23.685
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bangladesh",
+        "Last_Update": "1597282064000",
+        "Lat": 23.685,
+        "Long_": 90.3563,
+        "Confirmed": 266498,
+        "Deaths": 3513,
+        "Recovered": 153089,
+        "Active": 109896
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469936,
+          50.8333
+        ]
+      },
+      "properties": {
+        "Country_Region": "Belgium",
+        "Last_Update": "1597282064000",
+        "Lat": 50.8333,
+        "Long_": 4.469936,
+        "Confirmed": 75008,
+        "Deaths": 9885,
+        "Recovered": 17841,
+        "Active": 47282
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9668,
+          45.9432
+        ]
+      },
+      "properties": {
+        "Country_Region": "Romania",
+        "Last_Update": "1597282064000",
+        "Lat": 45.9432,
+        "Long_": 24.9668,
+        "Confirmed": 65177,
+        "Deaths": 2807,
+        "Recovered": 31048,
+        "Active": 31322
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.585262,
+          41.377491
+        ]
+      },
+      "properties": {
+        "Country_Region": "Uzbekistan",
+        "Last_Update": "1597282064000",
+        "Lat": 41.377491,
+        "Long_": 64.585262,
+        "Confirmed": 32465,
+        "Deaths": 210,
+        "Recovered": 25106,
+        "Active": 7149
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3699,
+          47.4116
+        ]
+      },
+      "properties": {
+        "Country_Region": "Moldova",
+        "Last_Update": "1597282064000",
+        "Lat": 47.4116,
+        "Long_": 28.3699,
+        "Confirmed": 28697,
+        "Deaths": 863,
+        "Recovered": 19998,
+        "Active": 7836
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9062,
+          -0.0236
+        ]
+      },
+      "properties": {
+        "Country_Region": "Kenya",
+        "Last_Update": "1597282064000",
+        "Lat": -0.0236,
+        "Long_": 37.9062,
+        "Confirmed": 28104,
+        "Deaths": 456,
+        "Recovered": 14610,
+        "Active": 13038
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6791,
+          43.9159
+        ]
+      },
+      "properties": {
+        "Country_Region": "Bosnia and Herzegovina",
+        "Last_Update": "1597282064000",
+        "Lat": 43.9159,
+        "Long_": 17.6791,
+        "Confirmed": 14961,
+        "Deaths": 453,
+        "Recovered": 8827,
+        "Active": 5681
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.869107,
+          -18.766947
+        ]
+      },
+      "properties": {
+        "Country_Region": "Madagascar",
+        "Last_Update": "1597282064000",
+        "Lat": -18.766947,
+        "Long_": 46.869107,
+        "Confirmed": 13397,
+        "Deaths": 156,
+        "Recovered": 11529,
+        "Active": 1712
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.849332,
+          -13.133897
+        ]
+      },
+      "properties": {
+        "Country_Region": "Zambia",
+        "Last_Update": "1597282064000",
+        "Lat": -13.133897,
+        "Long_": 27.849332,
+        "Confirmed": 8501,
+        "Deaths": 246,
+        "Recovered": 7233,
+        "Active": 1022
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1296,
+          49.8153
+        ]
+      },
+      "properties": {
+        "Country_Region": "Luxembourg",
+        "Last_Update": "1597282064000",
+        "Lat": 49.8153,
+        "Long_": 6.1296,
+        "Confirmed": 7300,
+        "Deaths": 122,
+        "Recovered": 6262,
+        "Active": 916
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2679,
+          1.6508
+        ]
+      },
+      "properties": {
+        "Country_Region": "Equatorial Guinea",
+        "Last_Update": "1597282064000",
+        "Lat": 1.6508,
+        "Long_": 10.2679,
+        "Confirmed": 4821,
+        "Deaths": 83,
+        "Recovered": 2182,
+        "Active": 2556
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.207229,
+          12.865416
+        ]
+      },
+      "properties": {
+        "Country_Region": "Nicaragua",
+        "Last_Update": "1597282064000",
+        "Lat": 12.865416,
+        "Long_": -85.207229,
+        "Confirmed": 4115,
+        "Deaths": 128,
+        "Recovered": 2913,
+        "Active": 1074
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.771797,
+          7.873054
+        ]
+      },
+      "properties": {
+        "Country_Region": "Sri Lanka",
+        "Last_Update": "1597282064000",
+        "Lat": 7.873054,
+        "Long_": 80.771797,
+        "Confirmed": 2881,
+        "Deaths": 11,
+        "Recovered": 2638,
+        "Active": 232
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3569,
+          42.3154
+        ]
+      },
+      "properties": {
+        "Country_Region": "Georgia",
+        "Last_Update": "1597282064000",
+        "Lat": 42.3154,
+        "Long_": 43.3569,
+        "Confirmed": 1278,
+        "Deaths": 17,
+        "Recovered": 1058,
+        "Active": 203
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.371,
+          15.415
+        ]
+      },
+      "properties": {
+        "Country_Region": "Dominica",
+        "Last_Update": "1597282064000",
+        "Lat": 15.415,
+        "Long_": -61.371,
+        "Confirmed": 18,
+        "Deaths": 0,
+        "Recovered": 18,
+        "Active": 0
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0059,
+          44.0165
+        ]
+      },
+      "properties": {
+        "Country_Region": "Serbia",
+        "Last_Update": "1597282064000",
+        "Lat": 44.0165,
+        "Long_": 21.0059,
+        "Confirmed": 28751,
+        "Deaths": 658,
+        "Recovered": null,
+        "Active": 28093
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00000000000011,
+          23.7
+        ]
+      },
+      "properties": {
+        "Country_Region": "Taiwan*",
+        "Last_Update": "1597282064000",
+        "Lat": 23.7,
+        "Long_": 121,
+        "Confirmed": 481,
+        "Deaths": 7,
+        "Recovered": 443,
+        "Active": 31
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2433,
+          38.9637
+        ]
+      },
+      "properties": {
+        "Country_Region": "Turkey",
+        "Last_Update": "1597282064000",
+        "Lat": 38.9637,
+        "Long_": 35.2433,
+        "Confirmed": 244392,
+        "Deaths": 5891,
+        "Recovered": 227089,
+        "Active": 11412
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9237,
+          48.0196
+        ]
+      },
+      "properties": {
+        "Country_Region": "Kazakhstan",
+        "Last_Update": "1597282064000",
+        "Lat": 48.0196,
+        "Long_": 66.9237,
+        "Confirmed": 100855,
+        "Deaths": 1269,
+        "Recovered": 74677,
+        "Active": 24909
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.709953,
+          33.93911
+        ]
+      },
+      "properties": {
+        "Country_Region": "Afghanistan",
+        "Last_Update": "1597282064000",
+        "Lat": 33.93911,
+        "Long_": 67.709953,
+        "Confirmed": 37345,
+        "Deaths": 1354,
+        "Recovered": 26694,
+        "Active": 9297
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0926,
+          31.7917
+        ]
+      },
+      "properties": {
+        "Country_Region": "Morocco",
+        "Last_Update": "1597282064000",
+        "Lat": 31.7917,
+        "Long_": -7.0926,
+        "Confirmed": 36694,
+        "Deaths": 556,
+        "Recovered": 25677,
+        "Active": 10461
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.766922,
+          35.907757
+        ]
+      },
+      "properties": {
+        "Country_Region": "Korea, South",
+        "Last_Update": "1597282064000",
+        "Lat": 35.907757,
+        "Long_": 127.766922,
+        "Confirmed": 14714,
+        "Deaths": 305,
+        "Recovered": 13786,
+        "Active": 623
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2761,
+          38.861
+        ]
+      },
+      "properties": {
+        "Country_Region": "Tajikistan",
+        "Last_Update": "1597282064000",
+        "Lat": 38.861,
+        "Long_": 71.2761,
+        "Confirmed": 7912,
+        "Deaths": 63,
+        "Recovered": 6696,
+        "Active": 1153
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1683,
+          41.1533
+        ]
+      },
+      "properties": {
+        "Country_Region": "Albania",
+        "Last_Update": "1597282064000",
+        "Lat": 41.1533,
+        "Long_": 20.1683,
+        "Confirmed": 6817,
+        "Deaths": 208,
+        "Recovered": 3552,
+        "Active": 3057
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2,
+          45.1
+        ]
+      },
+      "properties": {
+        "Country_Region": "Croatia",
+        "Last_Update": "1597282064000",
+        "Lat": 45.1,
+        "Long_": 15.2,
+        "Confirmed": 5870,
+        "Deaths": 160,
+        "Recovered": 5024,
+        "Active": 686
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2207,
+          3.2028
+        ]
+      },
+      "properties": {
+        "Country_Region": "Maldives",
+        "Last_Update": "1597282064000",
+        "Lat": 3.2028,
+        "Long_": 73.2207,
+        "Confirmed": 5366,
+        "Deaths": 21,
+        "Recovered": 2884,
+        "Active": 2461
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8277,
+          -0.228
+        ]
+      },
+      "properties": {
+        "Country_Region": "Congo (Brazzaville)",
+        "Last_Update": "1597282064000",
+        "Lat": -0.228,
+        "Long_": 15.8277,
+        "Confirmed": 3745,
+        "Deaths": 60,
+        "Recovered": 1625,
+        "Active": 2060
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4659,
+          -26.5225
+        ]
+      },
+      "properties": {
+        "Country_Region": "Eswatini",
+        "Last_Update": "1597282064000",
+        "Lat": -26.5225,
+        "Long_": 31.4659,
+        "Confirmed": 3525,
+        "Deaths": 63,
+        "Recovered": 1910,
+        "Active": 1552
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0278,
+          3.9193
+        ]
+      },
+      "properties": {
+        "Country_Region": "Suriname",
+        "Last_Update": "1597282064000",
+        "Lat": 3.9193,
+        "Long_": -56.0278,
+        "Confirmed": 2653,
+        "Deaths": 39,
+        "Recovered": 1789,
+        "Active": 825
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.529562,
+          -18.665695
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mozambique",
+        "Last_Update": "1597282064000",
+        "Lat": -18.665695,
+        "Long_": 35.529562,
+        "Confirmed": 2559,
+        "Deaths": 19,
+        "Recovered": 951,
+        "Active": 1589
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.307,
+          6.877
+        ]
+      },
+      "properties": {
+        "Country_Region": "South Sudan",
+        "Last_Update": "1597282064000",
+        "Lat": 6.877,
+        "Long_": 31.307,
+        "Confirmed": 2477,
+        "Deaths": 47,
+        "Recovered": 1175,
+        "Active": 1255
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9955,
+          46.1512
+        ]
+      },
+      "properties": {
+        "Country_Region": "Slovenia",
+        "Last_Update": "1597282064000",
+        "Lat": 46.1512,
+        "Long_": 14.9955,
+        "Confirmed": 2303,
+        "Deaths": 129,
+        "Recovered": 1960,
+        "Active": 214
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.779889,
+          8.460555
+        ]
+      },
+      "properties": {
+        "Country_Region": "Sierra Leone",
+        "Last_Update": "1597282064000",
+        "Lat": 8.460555,
+        "Long_": -11.779889,
+        "Confirmed": 1937,
+        "Deaths": 69,
+        "Recovered": 1483,
+        "Active": 385
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.51,
+          31.24
+        ]
+      },
+      "properties": {
+        "Country_Region": "Jordan",
+        "Last_Update": "1597282064000",
+        "Lat": 31.24,
+        "Long_": 36.51,
+        "Confirmed": 1303,
+        "Deaths": 11,
+        "Recovered": 1215,
+        "Active": 77
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3754,
+          35.9375
+        ]
+      },
+      "properties": {
+        "Country_Region": "Malta",
+        "Last_Update": "1597282064000",
+        "Lat": 35.9375,
+        "Long_": 14.3754,
+        "Confirmed": 1190,
+        "Deaths": 9,
+        "Recovered": 695,
+        "Active": 486
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.081666,
+          17.607789
+        ]
+      },
+      "properties": {
+        "Country_Region": "Niger",
+        "Last_Update": "1597282064000",
+        "Lat": 17.607789,
+        "Long_": 8.081666,
+        "Confirmed": 1161,
+        "Deaths": 69,
+        "Recovered": 1075,
+        "Active": 17
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.277199,
+          14.058324
+        ]
+      },
+      "properties": {
+        "Country_Region": "Vietnam",
+        "Last_Update": "1597282064000",
+        "Lat": 14.058324,
+        "Long_": 108.277199,
+        "Confirmed": 883,
+        "Deaths": 17,
+        "Recovered": 409,
+        "Active": 457
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.888822,
+          -6.369028
+        ]
+      },
+      "properties": {
+        "Country_Region": "Tanzania",
+        "Last_Update": "1597282064000",
+        "Lat": -6.369028,
+        "Long_": 34.888822,
+        "Confirmed": 509,
+        "Deaths": 21,
+        "Recovered": 183,
+        "Active": 305
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9189,
+          -3.3731
+        ]
+      },
+      "properties": {
+        "Country_Region": "Burundi",
+        "Last_Update": "1597282064000",
+        "Lat": -3.3731,
+        "Long_": 29.9189,
+        "Confirmed": 409,
+        "Deaths": 1,
+        "Recovered": 315,
+        "Active": 93
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.956,
+          21.9162
+        ]
+      },
+      "properties": {
+        "Country_Region": "Burma",
+        "Last_Update": "1597282064000",
+        "Lat": 21.9162,
+        "Long_": 95.956,
+        "Confirmed": 361,
+        "Deaths": 6,
+        "Recovered": 318,
+        "Active": 37
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8467,
+          46.8625
+        ]
+      },
+      "properties": {
+        "Country_Region": "Mongolia",
+        "Last_Update": "1597282064000",
+        "Lat": 46.8625,
+        "Long_": 103.8467,
+        "Confirmed": 293,
+        "Deaths": 0,
+        "Recovered": 269,
+        "Active": 24
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.2872,
+          12.9843
+        ]
+      },
+      "properties": {
+        "Country_Region": "Saint Vincent and the Grenadines",
+        "Last_Update": "1597282064000",
+        "Lat": 12.9843,
+        "Long_": -61.2872,
+        "Confirmed": 57,
+        "Deaths": 0,
+        "Recovered": 52,
+        "Active": 5
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.065,
+          -17.7134
+        ]
+      },
+      "properties": {
+        "Country_Region": "Fiji",
+        "Last_Update": "1597282064000",
+        "Lat": -17.7134,
+        "Long_": 178.065,
+        "Confirmed": 27,
+        "Deaths": 1,
+        "Recovered": 18,
+        "Active": 8
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.782998,
+          17.357822
+        ]
+      },
+      "properties": {
+        "Country_Region": "Saint Kitts and Nevis",
+        "Last_Update": "1597282064000",
+        "Lat": 17.357822,
+        "Long_": -62.782998,
+        "Confirmed": 17,
+        "Deaths": 0,
+        "Recovered": 17,
+        "Active": 0
+      },
+      "id": 188
+    }
+  ],
+  "links": [
+    {
+      "type": "application/geo+json",
+      "rel": "self",
+      "title": "This document as GeoJSON",
+      "href": "https://demo.pygeoapi.io/covid-19/collections/cases_country/items?f=json&limit=10000"
+    },
+    {
+      "rel": "alternate",
+      "type": "application/ld+json",
+      "title": "This document as RDF (JSON-LD)",
+      "href": "https://demo.pygeoapi.io/covid-19/collections/cases_country/items?f=jsonld&limit=10000"
+    },
+    {
+      "type": "text/html",
+      "rel": "alternate",
+      "title": "This document as HTML",
+      "href": "https://demo.pygeoapi.io/covid-19/collections/cases_country/items?f=html&limit=10000"
+    },
+    {
+      "type": "application/json",
+      "title": "Global - Cases by Country - Coronavirus 2019 nCoV Cases",
+      "rel": "collection",
+      "href": "https://demo.pygeoapi.io/covid-19/collections/cases_country"
+    }
+  ],
+  "timeStamp": "2020-08-13T01:42:02.646663Z"
+}

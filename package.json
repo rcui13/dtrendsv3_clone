@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookieconsent": "^3.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "npm": "^7.10.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "name": "dtrendsv3",
+  "version": "1.0.0",
+  "main": "dTrends_mainSvr.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anson-Zhao/dTrendsV3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anson-Zhao/dTrendsV3/issues"
+  },
+  "homepage": "https://github.com/Anson-Zhao/dTrendsV3#readme",
+  "description": ""
+}
